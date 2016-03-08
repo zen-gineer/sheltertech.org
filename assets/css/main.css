@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,800,700);
 /*
 	Escape Velocity by HTML5 UP
 	html5up.net | @n33co
@@ -1412,7 +1412,7 @@ br.clear {
 }
 
 p, ul, ol, dl, table, blockquote, form {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 /* Table */
@@ -1848,7 +1848,6 @@ ol.default li {
 
 #header-wrapper {
     background: url("images/bg-san-francisco.png") center center;
-    background-size: cover;
 }
 
 #header-wrapper:before {
@@ -2235,7 +2234,7 @@ ol.default li {
     }
 
     .homepage #logo {
-        margin-top: -1em;
+        margin-top: -4em;
     }
 
     #logo h1 {
@@ -2244,8 +2243,6 @@ ol.default li {
 
     #logo p {
         display: block;
-        width: 773px;
-        height: 144px;
         font-family: 'Open Sans';
         font-weight: 800;
         font-size: 46px;
@@ -2861,10 +2858,13 @@ ol.default li {
     }
 
     #logo p {
-        margin: 1.25em 0 0 0;
         display: block;
-        letter-spacing: 0.2em;
-        font-size: 0.9em;
+        font-family: 'Open Sans';
+        font-weight: 800;
+        font-size: 46px;
+        line-height: 1;
+        color: #ffffff;
+        margin: 0 auto;
     }
 
     /* Nav */
