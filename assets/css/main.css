@@ -1567,7 +1567,7 @@ header.style1 p {
 .image.left {
     float: left;
     margin: 0 2em 2em 0;
-}
+}x
 
 .image.centered {
     display: block;
@@ -1848,7 +1848,6 @@ ol.default li {
 
 #header-wrapper {
     background: url("images/bg-san-francisco.png") center center;
-    height: 700px;
     background-size: cover;
 }
 
