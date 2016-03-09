@@ -1985,7 +1985,7 @@ ol.default li {
 }
 
 #header-wrapper {
-    background: url("images/bg-san-francisco.png") center center;
+    background: black url("images/bg-san-francisco.png") no-repeat center center;
 }
 
 #header-wrapper:before {
