@@ -197,6 +197,148 @@ body {
 
 }
 
+.teamphoto {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.teamphotocaption {
+    background-color: #323232;
+    opacity: .7;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.teamphotofigure {
+    position: relative;
+}
+
+.teamphotocontainer {
+    padding-left: 0;
+    padding-top: 0;
+    width: 100%;
+}
+.teamphotoname {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    margin-bottom: -.5em;
+}
+.teamphotoposition {
+    font-family: 'Open Sans';
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.teaminfo {
+    font-family: 'Open Sans';
+    font-size: 15px;
+    line-height: 1.5;
+    color: #000000;
+}
+.teaminfoheader {
+    margin: 0 auto;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #000000;
+}
+.appinfoheader {
+    margin: 0 auto;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: left;
+    color: #000000;
+}
+.appinfo {
+    font-family: 'Open Sans';
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: left;
+    color: #000000;
+}
+.appinfomore {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 12.7px;
+    color: #000000;
+}
+.lifelinemore {
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+}
+.lifelineinfo {
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    line-height: 1.5;
+    color: #000000;
+}
+.wifiinfo {
+    margin: 0 auto;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.storyinfo {
+    font-family: 'Open Sans';
+    font-size: 15px;
+    line-height: 1.5;
+    color: #000000;
+    text-align: left
+}
+.storyheader {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #000000;
+    text-align: left
+}
+.footerinfo {
+    margin: 0 auto;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    color: #ffffff;
+}
+.contactinfoheader {
+    margin: 0 auto;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+.contactinfo {
+    margin: 0 auto;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 1.4;
+    color: #ffffff;
+}
+.copyrightinfo {
+    margin: 0 auto;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 1.4;
+    color: #ffffff;
+}
 /* Grid */
 
 .row {
@@ -1409,10 +1551,6 @@ sup {
 
 br.clear {
     clear: both;
-}
-
-p, ul, ol, dl, table, blockquote, form {
-    margin-bottom: 1em;
 }
 
 /* Table */
