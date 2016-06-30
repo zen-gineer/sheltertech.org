@@ -1,0 +1,23 @@
+//////////////////////////////////////////////////////////////////////////////////////////
+// SITE HEADER
+
+.site-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255,255,255,0);
+  padding: calc-em(30px) calc-em(30px);
+  @include transition(all 400ms ease-in-out);
+
+  .logo {
+    @extend .font-size-large;
+    font-weight: 900;
+    color: white;
+    float: left;
+  }
+
+  .right {
+    float: right;
+  }
+}
