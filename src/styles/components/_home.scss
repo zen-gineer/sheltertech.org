@@ -125,8 +125,9 @@
 			color: $color-white;
 		}
 		small {
+			@extend %font-size-small;
 			display: inline-block;
-			max-width: calc-em(150px);
+			max-width: calc-em(200px);
 		}
 		.more-info {
 			font-weight: 600;
