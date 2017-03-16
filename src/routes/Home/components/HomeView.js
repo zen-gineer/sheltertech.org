@@ -239,7 +239,7 @@ export const HomeView = () => (
     		</div>
     		<img src={ImageDonateBar} alt="Donation Goals" className="donate-bar-image" />
     	</div>
-    	<a href="https://www.paypal.com/donate/?token=flEFSbcVJ3kSUZCUtLNdw9ra4KrmOIagIYqHuFpCqInh4TMT1-oVkG7vfzXCRqWrrrZ7tm" className="donate-button">Donate</a>
+    	<a href="https://www.paypal.com/donate/?token=flEFSbcVJ3kSUZCUtLNdw9ra4KrmOIagIYqHuFpCqInh4TMT1-oVkG7vfzXCRqWrrrZ7tm" className="donate-button">Donate Now</a>
     </section>
     <section className="contact" id="contact">
     	<h2>Contact Us</h2>
