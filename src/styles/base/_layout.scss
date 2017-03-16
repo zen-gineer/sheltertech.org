@@ -1,0 +1,97 @@
+@import "colors";
+
+$font-size: 16px;
+$break-phone: 600px;
+$break-tablet-s: 768px;
+$break-tablet-p: 960px;
+$break-tablet-l: 1140px;
+$break-desktop: 1441px;
+$break-desktop-l: 1600px;
+$break-desktop-xl: 2000px;
+
+.base-max-width {
+  max-width: calc-em($max-content-width);
+  width: 90%;
+  margin: 0 auto;
+}
+
+%flex-row {
+  @include display(flex);
+  @include flex-wrap(nowrap);
+  @include align-items(center);
+}
+
+%flex-row-center {
+  @include display(flex);
+  @include justify-content(center);
+  @include align-items(center);
+}
+
+%flex-column {
+  @include display(flex);
+  @include flex-direction(column);
+  @include flex-wrap(nowrap);
+  @include justify-content(flex-start);
+}
+
+%flex-column-center {
+  @include display(flex);
+  @include flex-direction(column);
+  @include flex-wrap(nowrap);
+  @include justify-content(center);
+  @include align-items(stretch);
+}
+
+%flex-grid {
+  @include display(flex);
+  @include flex-wrap(wrap);
+  @include align-items(flex-start);
+  @include align-content(flex-start);
+}
+
+%flex-center {
+  @include display(flex);
+  @include justify-content(center);
+  @include align-items(center);
+  @include align-content(center);
+}
+
+%table-view {
+  @extend %flex-column;
+  margin: calc-em(20px) 0;
+  li {
+    @extend %flex-row;
+    height: calc-em(60px);
+    border-bottom: 1px solid $color-grey2;
+    margin-left: calc-em(20px);
+    background-image: url(_assets/rightChevron.png);
+    background-repeat: no-repeat;
+    background-size: calc-em(8px) calc-em(12px);
+    background-position: 95% center;
+    text-align: left;
+    p {
+      flex: 1 1 auto;
+      text-align: left;
+    }
+    &:last-of-type {
+      border-bottom: 0;
+    }
+  }
+  %table-view-image {
+    width: calc-em(32px);
+    height: calc-em(32px);
+    margin: calc-em(12px);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
+
+body, html {
+  height:100%;
+  min-height: inherit;
+}
+.app {
+	@extend %flex-column;
+  align-items: stretch;
+}

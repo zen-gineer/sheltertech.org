@@ -1,0 +1,12 @@
+/////////////////////////////////////////////////////////////////////////////////////////
+// SITE FOOTER
+
+.site-footer {
+	@extend %flex-column-center;
+	background: $color-brand-dark2;
+	text-align: center;
+	padding: calc-em(40px);
+	small {
+		@extend %font-size-small;
+	}
+}

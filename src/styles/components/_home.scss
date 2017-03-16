@@ -1,0 +1,454 @@
+//////////////////////////////////////////////////////////////////////////////////////////
+// HOME
+
+//////////////////////////////////////////////////////////////////////////////////////////
+// HERO
+
+.hero {
+	@extend %bg-image;
+	background: url(_assets/hero.jpg);
+	background-size: cover;
+	background-blend-mode: luminosity;
+	background-color: $color-brand;
+	background-position: center;
+	height: calc-em(667px);
+	text-align: center;
+	@include r_max($break-phone) {
+		height: calc-em(500px);
+	}
+	h1 {
+		@extend %font-size-hero;
+		max-width: calc-em(800px);
+		width: 80%;
+		padding: calc-em(250px) 0 0 0;
+		margin: 0 auto;
+		@include r_max($break-tablet-s) {
+			width: 80%;
+			padding: calc-em(240px) 0 0 0;
+		}
+		@include r_max($break-phone) {
+			padding: calc-em(160px) 0 0 0;
+		}
+	}
+	h3 {
+		max-width: calc-em(620px);
+		width: 80%;
+		margin: calc-em(20px) auto;
+		em {
+			@extend %bg-image;
+			display: inline-block;
+			background-image: url(_assets/underline.svg);
+			background-position: center bottom;
+			background-size: calc-em(105px) calc-em(7px);
+			padding-bottom: calc-em(10px);
+		}
+	}
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////
+// FOUNDER MESSAGE
+
+.founder-message {
+	background-color: $color-brand-dark2;
+	overflow: auto;
+	.content {
+		@extend %flex-row-center;
+		margin: calc-em(150px) auto;
+		@include r_max($break-tablet-p) {
+			flex-direction: column;
+		}
+		@include r_max($break-phone) {
+			margin: calc-em(50px) auto;
+		}
+	}
+	.founder-image {
+		max-width: calc-em(360px);
+		width: 80%;
+		margin-right: calc-em(50px);
+		@include r_max($break-tablet-p) {
+			max-width: calc-em(250px);
+			margin: 0 0 calc-em(50px) 0;
+		}
+		@include r_max($break-phone) {
+			max-width: calc-em(200px);
+		}
+	}
+	.founder-text {
+		max-width: calc-em(450px);
+		width: 80%;
+	}
+	h5 {
+		font-size: calc-em(14px);
+	}
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////
+// INITIATIVES
+
+.intiatives {
+	@extend %flex-column-center;
+	background: $color-brand-dark;
+	overflow: auto;
+	.initiative-overview {
+		@extend %flex-column-center;
+		text-align: center;
+		margin: calc-em(100px) auto calc-em(150px);
+		width: 100%;
+		@include r_max($break-phone) {
+			margin: calc-em(50px) auto calc-em(70px);
+		}
+	}
+	h2 {
+		margin-bottom: calc-em(40px);
+	}
+	.initiative-list {
+		@extend %flex-row-center;
+		justify-content: space-between;
+		text-align: center;
+		width: calc-em(700px);
+		margin: 0 auto;
+		@include r_max($break-tablet-s) {
+			flex-direction: column;
+			width: 100%;
+			li {
+				margin-bottom: calc-em(50px);
+			}
+		}
+		img {
+			width: calc-em(180px);
+			margin-bottom: calc-em(15px);
+		}
+		h3 {
+			margin-bottom: calc-em(6px);
+		}
+		h4 {
+			color: $color-white;
+		}
+		small {
+			display: inline-block;
+			max-width: calc-em(150px);
+		}
+		.more-info {
+			font-weight: 600;
+		}
+	}
+	.shelter-wifi {
+		@extend %bg-image;
+		@extend %flex-center;
+		background-image: url(_assets/shelter-wifi.jpg);
+		background-blend-mode: luminosity;
+		background-color: $color-brand;
+		background-size: cover;
+		padding: calc-em(140px) 0;
+		@include r_max($break-phone) {
+				padding: 0;
+			}
+		.content {
+			transform: translateX(210px);
+			background: $color-white;
+			color: $color-black;
+			width: 80%;
+			max-width: calc-em(680px);
+			padding: calc-em(60px);
+			position: relative;
+			.initiative-logo {
+				@extend %bg-image;
+				@extend %hide-text;
+				position: absolute;
+				top: calc-em(-40px);
+				left: calc-em(-40px);
+				width: calc-em(100px);
+				height: calc-em(100px);
+				background-size: cover;
+				@include r_max($break-phone) {
+					top: calc-em(30px);
+					left: calc-em(20px);
+				}
+			}
+			@include r_max($break-tablet-l) {
+				transform: none;
+			}
+			@include r_max($break-phone) {
+				width: 100%;
+				padding: calc-em(150px) calc-em(30px) calc-em(70px);
+			}
+		}
+		.kqed img {
+			width: calc-em(121px);
+		}
+	}
+	.askdarcel {
+		@extend %bg-image;
+		@extend %flex-center;
+		background-color: $color-brand;
+		background-image: url(_assets/ask-darcel.png);
+		background-position: left center;
+		background-size: calc-em(800px);
+		@include r_max($break-tablet-l) {
+			background-blend-mode: overlay;
+		}
+		@include r_max($break-phone) {
+			background-image: none;
+		}
+		.content {
+			transform: translateX(80%);
+			width: 80%;
+			max-width: calc-em(460px);
+			margin: calc-em(250px) auto calc-em(200px);
+			position: relative;
+			@include r_max($break-phone) {
+				margin: calc-em(200px) auto calc-em(70px);
+			}
+			.initiative-logo {
+				@extend %bg-image;
+				@extend %hide-text;
+				position: absolute;
+				top: calc-em(-100px);
+				left: calc-em(-100px);
+				width: calc-em(100px);
+				height: calc-em(100px);
+				background-size: cover;
+				@include r_max($break-phone) {
+					top: calc-em(-140px);
+					left: 0;
+				}
+			}
+			@include r_max($break-tablet-l) {
+				transform: none;
+				max-width: calc-em(560px);
+			}
+			@include r_max($break-tablet-s) {
+				max-width: calc-em(400px);
+			}
+			@include r_max($break-phone) {
+				width: 80%;
+			}
+		}
+		.citylab img {
+			width: calc-em(160px);
+			margin-bottom: calc-em(30px);
+		}
+		a {
+			color: $color-white;
+			text-decoration: underline;
+		}
+	}
+	.casey {
+		@extend %flex-center;
+		background-color: $color-brand-dark;
+		.content {
+			@extend %flex-row;
+			width: 80%;
+			max-width: calc-em(800px);
+			margin: calc-em(90px) auto;
+			position: relative;
+			.initiative-logo {
+				@extend %bg-image;
+				@extend %hide-text;
+				width: calc-em(100px);
+				height: calc-em(100px);
+				background-size: cover;
+				margin-bottom: calc-em(20px);
+			}
+			@include r_max($break-tablet-s) {
+				justify-content: center;
+			}
+		}
+		.casey-text {
+			max-width: calc-em(390px);
+			width: 80%;
+			position: relative;
+			margin-right: calc-em(80px);
+			@include r_max($break-tablet-s) {
+				max-width: calc-em(450px);
+				width: 90%;
+				margin-right: 0;
+			}
+		}
+		.casey-image {
+			width: calc-em(290px);
+			@include r_max($break-tablet-s) {
+				display: none;
+			}
+		}
+	}
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+// TEAM
+
+.team {
+	text-align: center;
+	background-color: $color-brand-dark2;
+	overflow: auto;
+	.content {
+		margin: calc-em(140px) auto;
+		max-width: calc-em(450px);
+		width: 80%;
+		@include r_max($break-phone) {
+			margin: calc-em(50px) auto;
+		}
+	}
+}
+.team-list {
+	@extend %flex-grid;
+	justify-content: center;
+	max-width: calc-em(1100px);
+	width: 90%;
+	margin: 0 auto;
+}
+.team-list-item {
+	text-align: left;
+	img {
+		mix-blend-mode: luminosity;
+		max-width: calc-em(275px);
+		@include r_max($break-tablet-s) {
+			max-width: calc-em(200px);
+		}
+	}
+	.name {
+		font-weight: 700;
+		margin: calc-em(20px) 0 calc-em(2px) calc-em(20px);
+	}
+	.title {
+		@extend %font-size-small;
+		margin: 0 0 calc-em(30px) calc-em(20px);
+	}
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+// GET INVOLVED
+
+.get-involved {
+	@extend %flex-column-center;
+	background: $color-brand;
+	overflow: auto;
+	text-align: center;
+	margin: calc-em(100px) auto calc-em(150px);
+	p {
+		max-width: calc-em(450px);
+		width: 80%;
+		margin: 0 auto 0;
+	}
+
+	ul {
+		@extend %flex-row-center;
+		justify-content: space-between;
+		width: calc-em(700px);
+		margin: calc-em(60px) auto;
+		@include r_max($break-tablet-s) {
+			flex-direction: column;
+			width: 100%;
+			li {
+				margin-bottom: calc-em(50px);
+			}
+		}
+		li {
+			width: calc-em(200px);
+			h3 {
+				@extend %font-size-medium;
+				font-weight: 900;
+				margin-bottom: calc-em(5px);
+			}
+			small {
+				display: block;
+				margin: 0 auto;
+				width: calc-em(180px);
+			}
+			img {
+				width: calc-em(180px);
+				margin-bottom: calc-em(15px);
+			}
+		}
+	}
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+// DONATE
+
+.donate {
+	@extend %flex-column-center;
+	background: $color-brand-dark;
+	text-align: center;
+	overflow: auto;
+	padding: calc-em(100px) 0 calc-em(150px);
+	p {
+		max-width: calc-em(450px);
+		width: 80%;
+		margin: 0 auto calc-em(50px);
+	}
+	.donate-image-container {
+		margin: 0 auto calc-em(50px);
+		position: relative;
+	}
+	.donate-image-text {
+		background: $color-white;
+		position: absolute;
+		left: calc-em(40px);
+		color: $color-black;
+		width: calc-em(220px);
+		box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+		border-radius: 2px;
+		padding: calc-em(18px) calc-em(20px) calc-em(20px);
+		@include r_max($break-tablet-s) {
+			position: relative;
+			left: 0;
+		}
+		&:after {
+			top: 100%;
+			left: 50%;
+			border: solid transparent;
+			content: " ";
+			height: 0;
+			width: 0;
+			position: absolute;
+			pointer-events: none;
+			border-color: rgba(255, 255, 255, 0);
+			border-top-color: #ffffff;
+			border-width: 15px;
+			margin-left: -15px;
+		}
+		small {
+			@extend %font-size-small;
+		}
+	}
+	.donate-bar-image {
+		margin-top: calc-em(150px);
+		width: calc-em(700px);
+		@include r_max($break-tablet-s) {
+			display: none;
+		}
+	}
+	.donate-button {
+		@extend .btn;
+		margin: 0 auto;
+		width: calc-em(200px);
+		height: calc-em(60px);
+		border-radius: calc-em(30px);
+		padding-top: calc-em(19px);
+	}
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+// CONTACT US
+
+.contact {
+	@extend %flex-column-center;
+	background: $color-brand-dark2;
+	text-align: center;
+	overflow: auto;
+	padding: calc-em(100px) 0 calc-em(60px);
+	h2 {
+		margin-bottom: calc-em(40px);
+	}
+	p {
+		@extend %font-size-small;
+		text-transform: uppercase;
+		font-weight: 900;
+		margin-bottom: calc-em(10px);
+	}
+	h3 {
+		font-family: $font-family-alt;
+		margin-bottom: calc-em(40px);
+	}
+}
