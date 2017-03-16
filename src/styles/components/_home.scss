@@ -352,6 +352,7 @@
 				margin-bottom: calc-em(5px);
 			}
 			small {
+				@extend %font-size-small;
 				display: block;
 				margin: 0 auto;
 				width: calc-em(180px);
