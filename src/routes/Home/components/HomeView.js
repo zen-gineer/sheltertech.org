@@ -246,7 +246,7 @@ export const HomeView = () => (
     	<p>Email</p>
     	<h3>info@sheltertech.org</h3>
     	<p>Twitter</p>
-    	<h3>@sheltertechSF</h3>
+    	<h3>@sheltertechOrg</h3>
     </section>
     <footer className="site-footer">
     <small>©2017 Sheltertech a 501c(3) non profit organisation • Made in San Francisco, California</small>
