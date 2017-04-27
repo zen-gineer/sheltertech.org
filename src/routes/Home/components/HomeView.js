@@ -239,7 +239,13 @@ export const HomeView = () => (
     		</div>
     		<img src={ImageDonateBar} alt="Donation Goals" className="donate-bar-image" />
     	</div>
-    	<a href="https://www.paypal.com/donate/?token=flEFSbcVJ3kSUZCUtLNdw9ra4KrmOIagIYqHuFpCqInh4TMT1-oVkG7vfzXCRqWrrrZ7tm" className="donate-button">Donate Now</a>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" id="donate-form">
+            <input type="hidden" name="cmd" value="_s-xclick" />
+            <input type="hidden" name="hosted_button_id" value="K29R6HRSEDRF6" />
+            <input className="donate-form-image" type="image" src="http://i.imgur.com/DqgcGsJ.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+        </form>
+    	
     </section>
     <section className="contact" id="contact">
     	<h2>Contact Us</h2>
