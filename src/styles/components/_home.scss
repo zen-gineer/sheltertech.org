@@ -429,6 +429,12 @@
 		border-radius: calc-em(30px);
 		padding-top: calc-em(19px);
 	}
+
+	#donate-form {
+		& > .donate-form-image {
+			width: 200px;
+		}
+	}
 }
 
 /////////////////////////////////////////////////////////////////////////////////////////
