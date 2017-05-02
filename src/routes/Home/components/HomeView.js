@@ -95,7 +95,7 @@ export const HomeView = () => (
     			<p>When our founder Darcel Jackson was on the streets, finding work opportunities, food, and places to shower were time consuming, daily chores. AskDarcel acts as a moving referral center so people can find the services they need wherever they are.</p>
     			<p className="more-info">Read about it on</p>
     			<a href="http://www.citylab.com/cityfixer/2015/10/how-apps-can-help-and-harm-the-homeless/412780/" className="citylab"><img src={ImageCitylab} alt="Citylab" /></a>
-    			<p><a href="http://askdarcel.com" className="ask-darcel-btn">Visit AskDarcel.com</a></p>
+    			<p><a href="http://askdarcel.org" className="ask-darcel-btn">Visit AskDarcel.org</a></p>
     		</div>
     	</div>
     	<div className="casey">
