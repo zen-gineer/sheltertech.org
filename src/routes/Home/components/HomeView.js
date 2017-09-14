@@ -68,7 +68,7 @@ export const HomeView = () => (
 	    			<small>Free internet access in shelters and SROs</small>
 	    		</li>
 	    		<li>
-	    			<img src={ImageInitiative2} alt="AskDarcel" />
+	    			<a href="https://askdarcel.org"><img src={ImageInitiative2} alt="AskDarcel" /></a>
 	    			<h3>AskDarcel</h3>
 	    			<small>Peer-reviewed resource<br/>directory</small>
 	    		</li>
