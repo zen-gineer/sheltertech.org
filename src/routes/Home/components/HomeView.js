@@ -85,17 +85,17 @@ export const HomeView = () => (
     			<h4>Since 2015, we've equipped one shelter and 9 SROs in San Francisco with free WiFi, providing more than 1200 underserved people with access to the Internet. </h4>
     			<p>We partner with local internet service providers to offer free WiFi in shelters and low income housing so that people can access the resources, training, and jobs that will help them get back on their feet. </p>
     			<p className="more-info">Read about it on</p>
-    			<a href="http://ww2.kqed.org/news/2015/05/18/a-homeless-man-brings-wi-fi-to-san-francisco-shelters" className="kqed"><img src={ImageKQED} alt="KQED" /></a>
+    			<a href="https://ww2.kqed.org/news/2015/05/18/a-homeless-man-brings-wi-fi-to-san-francisco-shelters" className="kqed"><img src={ImageKQED} alt="KQED" /></a>
     		</div>
     	</div>
     	<div className="askdarcel">
     		<div className="content">
-    			<div className="initiative-logo" style={initiativeLogo2}></div>
+    			<a href="https://askdarcel.org"><div className="initiative-logo" style={initiativeLogo2} ></div></a>
     			<h4>AskDarcel provides underserved people and case managers a peer-reviewed, continuously updated directory of resources nearby.</h4>
     			<p>When our founder Darcel Jackson was on the streets, finding work opportunities, food, and places to shower were time consuming, daily chores. AskDarcel acts as a moving referral center so people can find the services they need wherever they are.</p>
     			<p className="more-info">Read about it on</p>
-    			<a href="http://www.citylab.com/cityfixer/2015/10/how-apps-can-help-and-harm-the-homeless/412780/" className="citylab"><img src={ImageCitylab} alt="Citylab" /></a>
-    			<p><a href="http://askdarcel.com" className="ask-darcel-btn">Visit AskDarcel.com</a></p>
+    			<a href="https://www.citylab.com/cityfixer/2015/10/how-apps-can-help-and-harm-the-homeless/412780/" className="citylab"><img src={ImageCitylab} alt="Citylab" /></a>
+    			<p><a href="https://askdarcel.org" className="ask-darcel-btn">Visit askdarcel.org</a></p>
     		</div>
     	</div>
     	<div className="casey">
@@ -149,7 +149,7 @@ export const HomeView = () => (
     		<li className="team-list-item">
     			<img src={ImageTeam7} alt="Leland Garofolo" />
     			<p className="name">Leland Garofolo</p>
-    			<p className="title">Back End Lead</p>
+    			<p className="title">Software Infrastructure Lead</p>
     		</li>
     		<li className="team-list-item">
     			<img src={ImageTeam8} alt="Sondra Silverhawk" />
@@ -242,10 +242,10 @@ export const HomeView = () => (
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" id="donate-form">
             <input type="hidden" name="cmd" value="_s-xclick" />
             <input type="hidden" name="hosted_button_id" value="K29R6HRSEDRF6" />
-            <input className="donate-form-image" type="image" src="http://i.imgur.com/DqgcGsJ.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+            <input className="donate-form-image" type="image" src="https://i.imgur.com/DqgcGsJ.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
         </form>
-    	
+
     </section>
     <section className="contact" id="contact">
     	<h2>Contact Us</h2>
