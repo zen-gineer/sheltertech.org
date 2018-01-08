@@ -210,7 +210,7 @@ export const HomeView = () => (
     </section>
     <section className="get-involved" id="get-involved">
     	<h2>Get Involved</h2>
-    	<p>Sheltertech is an all volunteer organization and we're always looking for good people to join our team.</p>
+    	<p>ShelterTech is an all volunteer organization and we're always looking for good people to join our team.</p>
     	<ul className="jobs-list">
     		<li>
     			<img src={ImageJob3} alt="Development" />
@@ -255,7 +255,7 @@ export const HomeView = () => (
     	<h3>@sheltertechSF</h3>
     </section>
     <footer className="site-footer">
-    <small>©2017 Sheltertech a 501c(3) non profit organisation • Made in San Francisco, California</small>
+    <small>©2017 ShelterTech a 501c(3) non profit organisation • Made in San Francisco, California</small>
     </footer>
   </div>
 )
