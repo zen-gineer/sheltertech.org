@@ -318,54 +318,6 @@
 }
 
 /////////////////////////////////////////////////////////////////////////////////////////
-// GET INVOLVED
-
-.get-involved {
-	@extend %flex-column-center;
-	background: $color-brand;
-	overflow: auto;
-	text-align: center;
-	margin: calc-em(100px) auto calc-em(150px);
-	p {
-		max-width: calc-em(450px);
-		width: 80%;
-		margin: 0 auto 0;
-	}
-
-	ul {
-		@extend %flex-row-center;
-		justify-content: space-between;
-		width: calc-em(700px);
-		margin: calc-em(60px) auto;
-		@include r_max($break-tablet-s) {
-			flex-direction: column;
-			width: 100%;
-			li {
-				margin-bottom: calc-em(50px);
-			}
-		}
-		li {
-			width: calc-em(200px);
-			h3 {
-				@extend %font-size-medium;
-				font-weight: 900;
-				margin-bottom: calc-em(5px);
-			}
-			small {
-				@extend %font-size-small;
-				display: block;
-				margin: 0 auto;
-				width: calc-em(180px);
-			}
-			img {
-				width: calc-em(180px);
-				margin-bottom: calc-em(15px);
-			}
-		}
-	}
-}
-
-/////////////////////////////////////////////////////////////////////////////////////////
 // DONATE
 
 .donate {

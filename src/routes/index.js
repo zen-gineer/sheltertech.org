@@ -12,7 +12,6 @@ export const createRoutes = (store) => ({
   indexRoute  : Home,
   childRoutes : [{
     path: 'get-involved',
-    component: CoreLayout,
     indexRoute: GetInvolved
   }
   ]

@@ -17,7 +17,7 @@ export const Header = () => (
       <a href='/#contact'>
       	Contact Us
       </a>
-      <a href='/get-involved/#donate' className='btn'>
+      <a href='/#donate' className='btn'>
       	Donate
       </a>
     </nav>
