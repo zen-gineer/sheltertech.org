@@ -31,17 +31,14 @@ AWS Key ID     : {{KEY_ID}}
 AWS Secret Key : {{SECRET_KEY}}
 
 Default Region : us-east-1
-### Deployment
+
+### Deployment to Staging
 Use the Bucket Name you desire below.
 ```bash
-$ yarn deploy:prod && aws s3 sync dist/ s3://{{BUCKET_NAME}}
+$ yarn update:staging
 ```
-
-Production 
-```
-Bucket Name: www.sheltertech.org
-```
-Staging
-``` 
-Bucket Name: staging.sheltertech.org
+### Deployment to Production
+Use the Bucket Name you desire below.
+```bash
+$ yarn update:prod
 ```

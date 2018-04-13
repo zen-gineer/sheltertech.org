@@ -19,6 +19,8 @@
     "deploy": "better-npm-run deploy",
     "deploy:dev": "better-npm-run deploy:dev",
     "deploy:prod": "better-npm-run deploy:prod",
+    "update:staging":  "better-npm-run deploy:prod && aws s3 sync dist/ s3://staging.sheltertech.org",
+    "update:prod":  "better-npm-run deploy:prod && aws s3 sync dist/ s3://www.sheltertech.org",
     "codecov": "cat coverage/*/lcov.info | codecov"
   },
   "betterScripts": {
