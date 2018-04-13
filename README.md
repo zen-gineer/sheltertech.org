@@ -1,6 +1,6 @@
 # ShelterTech.org Non-Profit Informational Site
 
-## Requirements
+## Requirements for Development
 * node `^4.5.0`
 * yarn `^0.17.0` or npm `^3.0.0`
 
@@ -26,11 +26,11 @@ Contact the Technical Team if you need this, you will need to configure `aws` yo
 
 Install the aws-cli tools. For OSX:
 ```bash
-brew install awscli
+$ brew install awscli
 ```
 Then to configure it run:
 ```bash
-aws configure
+$ aws configure
 ```
 You'll need to input these values.
 ```
