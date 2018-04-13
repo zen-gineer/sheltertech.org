@@ -16,7 +16,13 @@ We use an AWS S3 bucket to host this website. These are the steps to deploy chan
 
 ### Preconditions
 
-Access to the Sheltertech AWS account, contact the Technical Team if you need this, you will need to configure `aws` your first time.
+#### Homebrew
+
+How to install: https://brew.sh/
+
+#### Access to the Sheltertech AWS account
+
+Contact the Technical Team if you need this, you will need to configure `aws` your first time.
 
 Install the aws-cli tools. For OSX:
 ```bash
