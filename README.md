@@ -22,10 +22,11 @@ Install the aws-cli tools. For OSX:
 ```bash
 brew install awscli
 ```
-Then configure it, you'll need to input these values.
+Then configure it run:
 ```bash
 aws configure
 ```
+You'll need to input these values.
 ```
 AWS Key ID     : {{KEY_ID}}
 
