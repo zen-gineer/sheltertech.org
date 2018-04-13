@@ -33,12 +33,10 @@ AWS Secret Key : {{SECRET_KEY}}
 Default Region : us-east-1
 
 ### Deployment to Staging
-Use the Bucket Name you desire below.
 ```bash
 $ yarn update:staging
 ```
 ### Deployment to Production
-Use the Bucket Name you desire below.
 ```bash
 $ yarn update:prod
 ```
