@@ -12,11 +12,11 @@ $ yarn deploy:prod # Build deployable production build to /dist Copy contents to
 
 ## Deploy to Live Environment
 
-We use a AWS S3 bucket to host this webpage. These are the steps to deploy changes to production
+We use an AWS S3 bucket to host this website. These are the steps to deploy changes to production.
 
 ### Preconditions
 
-Access to AWS bucket, contact the Technical Team if you need this, you will need to configure aws your first time.
+Access to the Sheltertech AWS account, contact the Technical Team if you need this, you will need to configure `aws` your first time.
 
 Install the aws-cli tools. For OSX:
 ```bash
@@ -26,12 +26,13 @@ Then configure it, you'll need to input these values.
 ```bash
 aws configure
 ```
+```
 AWS Key ID     : {{KEY_ID}}
 
 AWS Secret Key : {{SECRET_KEY}}
 
 Default Region : us-east-1
-
+```
 ### Deployment to Staging
 ```bash
 $ yarn update:staging
