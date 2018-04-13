@@ -7,7 +7,7 @@
 ```bash
 $ yarn install     # Install project dependencies
 $ yarn start       # Compile and launch (same as `npm start`)
-$ yarn deploy:prod # Build deployable production build to /dist Copy contents to production directory
+$ yarn deploy:prod # Build deployable production build to /dist
 ```
 
 ## Deploy to Live Environment
@@ -22,7 +22,7 @@ Install the aws-cli tools. For OSX:
 ```bash
 brew install awscli
 ```
-Then configure it run:
+Then to configure it run:
 ```bash
 aws configure
 ```
