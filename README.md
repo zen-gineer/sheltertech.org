@@ -27,8 +27,10 @@ Then configure it, you'll need to input these values.
 aws configure
 ```
 AWS Key ID     : {{KEY_ID}}
+
 AWS Secret Key : {{SECRET_KEY}}
-Default Region : us-east-01
+
+Default Region : us-east-1
 ### Deployment
 Use the Bucket Name you desire below.
 ```bash
