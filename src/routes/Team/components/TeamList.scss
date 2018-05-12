@@ -1,0 +1,155 @@
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 60px;
+  width: 90vw;
+}
+
+.team-list--item {
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  position: relative;
+  background-color: #f9f9f9;
+  background-position: center;
+}
+
+.team-list--item:hover {
+  .team-list--item--details {
+    opacity: 1;
+  }
+}
+
+.team-list--item--details {
+  position: absolute;
+  bottom: 0;
+  padding: 20px 30px;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: all 200ms ease;
+}
+
+.team-list--item--details a {
+  color: #fff;
+}
+
+// PHOTOS //
+
+.team-list--item.darcel {
+  background-image: url(../assets/darcel-headshot.jpg);
+}
+.team-list--item.hicham {
+  background-image: url(../assets/hicham-press.jpg);
+}
+.team-list--item.derek {
+  background-image: url(../assets/derek-fidler.jpg);
+}
+.team-list--item.alice {
+  background-image: url(../assets/aliceHenry.jpg);
+}
+.team-list--item.joe {
+  background-image: url(../assets/joeFreund.jpg);
+}
+.team-list--item.phil {
+  background-image: url(../assets/phil-chu.jpg);
+}
+.team-list--item.sarah {
+  background-image: url(../assets/sarah-freier-miller.jpg);
+}
+.team-list--item.richard {
+  background-image: url(../assets/Richard-Xia.jpg);
+}
+.team-list--item.molly-c {
+  background-image: url(../assets/molly-cohen.jpg);
+}
+.team-list--item.glasha {
+  background-image: url(../assets/glasha-marcon.jpg);
+}
+.team-list--item.leland {
+  background-image: url(../assets/lelandGarofalo.jpg);
+}
+.team-list--item.agathe {
+  background-image: url(../assets/AgatheKempf.jpg);
+}
+.team-list--item.garance {
+  background-image: url(../assets/garance-rey.jpg);
+}
+.team-list--item.chris {
+  background-image: url(../assets/chris-keone.jpg);
+}
+.team-list--item.brad {
+  background-image: url(../assets/brad-lawler.jpg);
+}
+.team-list--item.scott {
+  background-image: url(../assets/scott-nelson.png);
+}
+.team-list--item.aaron {
+  background-image: url(../assets/aaron-mendez.png);
+}
+.team-list--item.marilyn {
+  background-image: url(../assets/marilyn-chan.png);
+}
+.team-list--item.dillon {
+  background-image: url(../assets/dillon-cruz.jpg);
+}
+.team-list--item.kinsey {
+  background-image: url(../assets/kinsey-hart.jpg);
+}
+.team-list--item.thomas {
+  background-image: url(../assets/thomas-wolfe.jpg);
+}
+.team-list--item.alex-h {
+  background-image: url(../assets/alex-holden.jpg);
+}
+.team-list--item.alexander {
+  background-image: url(../assets/alexander-turinske.jpg);
+}
+.team-list--item.yuzhe {
+  background-image: url(../assets/yuzhe-chen.jpg);
+}
+.team-list--item.eric {
+  background-image: url(../assets/eric-petzel.jpg);
+}
+.team-list--item.rashmi {
+  background-image: url(../assets/rashmi-balekundargir.jpg);
+}
+.team-list--item.zana {
+  background-image: url(../assets/zana-jipsen.jpg);
+}
+.team-list--item.truc {
+  background-image: url(../assets/truc-nguyen.jpg);
+}
+.team-list--item.amanda {
+  background-image: url(../assets/amanda-wall.jpg);
+}
+.team-list--item.molly-a {
+  background-image: url(../assets/molly-abrams.jpg);
+}
+.team-list--item.jill {
+  background-image: url(../assets/jillpfund.jpg);
+}
+.team-list--item.nick {
+  background-image: url(../assets/nick-platoff.jpg);
+}
+.team-list--item.bianca {
+  background-image: url(../assets/bianca-st-louis.jpg);
+}
+.team-list--item.ali {
+  background-image: url(../assets/ali-gustin.jpg);
+}
+.team-list--item.isabelle {
+  background-image: url(../assets/isabelle-plesis.jpg);
+}
+.team-list--item.andrew-platt {
+  background-image: url(../assets/andrew-platt.jpg);
+}
+.team-list--item.andrealiz {
+  background-image: url(../assets/andrealiz-afable.jpg);
+}
+.team-list--item.marissa {
+  background-image: url(../assets/marissa-kaufmann.jpg);
+}

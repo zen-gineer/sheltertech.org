@@ -1,12 +1,12 @@
 import React from 'react'
 import Header from '../../components/Header'
+import Footer from '../../components/Footer'
 
 export const CoreLayout = ({ children }) => (
   <div className='app'>
     <Header />
-    <div className='sections'>
-      {children}
-    </div>
+    {children}
+    <Footer />
   </div>
 )
 
