@@ -17,6 +17,42 @@ import ImageTacklingHomelessness from '../assets/tackling-homelessness.jpg'
 export const EventsList = () => (
 
   <ul className='events-list'>
+    <li className='event-card' onClick={() => window.open('https://eatfeastly.com/meals/d/191475228/dinner-with-your-neighbor-3/', '_blank')}>
+      <p className='event-card--cost'>Free</p>
+      <img className='event-card--image' src={ImageDinner} />
+      <div className='event-card--details'>
+        <div>
+          <p className='event-card--details--date'>Fri, Jun 1 7:00PM</p>
+          <h4>Dinner with Your Neighbour</h4>
+          <p className='event-card--details--description'>Share a table and a meal with housed and unhoused residents of SF</p>
+        </div>
+        <small>SOMA</small>
+      </div>
+    </li>
+    <li className='event-card' onClick={() => window.open('https://www.eventbrite.com/e/san-francisco-homelessness-datathon-may-20th-volunteering-opportunity-no-skills-required-tickets-45091072612', '_blank')}>
+      <p className='event-card--cost'>Volunteer Event</p>
+      <img className='event-card--image' src={ImageDatathon2} />
+      <div className='event-card--details'>
+        <div>
+          <p className='event-card--details--date'>Sun, May 20 1:00PM</p>
+          <h4>Homeless Services Workshop</h4>
+          <p className='event-card--details--description'>Work with the homeless and improve our program offerings at this volunteer event</p>
+        </div>
+        <small>Downtown San Francisco</small>
+      </div>
+    </li>
+    <li className='event-card' onClick={() => window.open('https://www.eventbrite.com/e/san-francisco-homelessness-datathon-may-19th-volunteering-opportunity-tickets-45091044528', '_blank')}>
+      <p className='event-card--cost'>Volunteer Event</p>
+      <img className='event-card--image' src={ImageDatathon1} />
+      <div className='event-card--details'>
+        <div>
+          <p className='event-card--details--date'>Sat, May 19 1:00PM</p>
+          <h4>Homeless Services Workshop</h4>
+          <p className='event-card--details--description'>Work with the homeless and improve our program offerings at this volunteer event</p>
+        </div>
+        <small>Downtown San Francisco</small>
+      </div>
+    </li>
     <li className='event-card' onClick={() => window.open('https://www.eventbrite.com/e/what-would-you-tell-the-next-mayor-about-homelessness-in-sf-tickets-45281357760', '_blank')}>
       <p className='event-card--cost'>Free</p>
       <img className='event-card--image' src={ImageMayoralEvent} />
