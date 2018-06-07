@@ -67,7 +67,7 @@ export const EventsList = () => (
     </li>
     <li className='event-card' onClick={() => window.open('https://www.eventbrite.com/e/san-francisco-homelessness-datathon-may-6th-volunteer-event-tickets-45090922162', '_blank')}>
       <p className='event-card--cost'>Volunteer Event</p>
-      <img className='event-card--image' src={ImageDatathon3} />
+      <img className='event-card--image' src={ImageDatathon6} />
       <div className='event-card--details'>
         <div>
           <p className='event-card--details--date'>Sun, May 6 10:00AM</p>
