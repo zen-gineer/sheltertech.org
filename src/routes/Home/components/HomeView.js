@@ -37,7 +37,7 @@ export const HomeView = () => (
         <li className='home--cards--card'>
           <img src={ImageAskDarcelRound} />
           <h4>AskDarcel</h4>
-          <p>Find  housing and human services you'r eligibile for</p>
+          <p>Find  housing and human services you're eligibile for</p>
         </li>
         <li className='home--cards--card'>
           <img src={ImageCaseyRound} />
