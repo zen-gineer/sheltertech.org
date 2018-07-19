@@ -4,6 +4,7 @@ import Home from './Home'
 import Volunteer from './Volunteer'
 import Events from './Events'
 import Team from './Team'
+import Jobs from './Jobs'
 
 /*  Note: Instead of using JSX, we recommend using react-router
     PlainRoute objects to build route definitions.   */
@@ -24,6 +25,10 @@ export const createRoutes = (store) => ({
     {
       path: 'team',
       indexRoute: Team
+    },
+    {
+      path: 'jobs',
+      indexRoute: Jobs
     }
   ]
 })

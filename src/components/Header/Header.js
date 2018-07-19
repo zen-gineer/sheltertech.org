@@ -14,6 +14,7 @@ export const Header = () => (
           <li><a href='/'>Programs</a></li>
           <li><a href='/events'>Events</a></li>
           <li><a href='/volunteer'>Volunteer</a></li>
+          <li><a href='/jobs'>Jobs</a></li>
           <li><a href='/team'>Team</a></li>
           <li><a href='mailto:info@sheltertech.org'>Contact Us</a></li>
           <li>
