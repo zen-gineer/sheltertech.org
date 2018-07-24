@@ -21,7 +21,7 @@ const eventsList = [
     show: true,
     title: 'Homeless Services Workshop',
     date: 'Tue, Jul 24 05:30PM',
-    type: 'Volunteer Event',
+    cost: 'Volunteer Event',
     link: 'https://www.eventbrite.com/e/san-francisco-homelessness-datathon-july-24th-volunteer-opportunity-tickets-47339944047?aff=efbeventtix',
     location: 'Unity',
     description: 'Work with the homeless and improve our program offerings at this volunteer event',
