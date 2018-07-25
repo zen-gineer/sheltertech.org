@@ -7,13 +7,6 @@ const EVENTS_LIST =
   UPCOMING_EVENTS.filter(n => n && n.show)
 
 class EventsList extends Component {
-  constructor () {
-    super()
-
-    this.state = {
-      eventsLength: (EVENTS_LIST && EVENTS_LIST.length) || 0
-    }
-  }
 
   renderEventsItem (n) {
     return (
@@ -35,7 +28,7 @@ class EventsList extends Component {
   render () {
     return (
       <ul className='events-list'>
-        {EVENTS_LIST.filter(n => n && n.show).map(n => this.renderEventsItem(n))}
+        {EVENTS_LIST.filter(n => n && n.show).reverse().map(n => this.renderEventsItem(n))}
       </ul>
     )
   }
