@@ -17,13 +17,24 @@ import ImageTacklingHomelessness from './assets/tackling-homelessness.jpg'
 
 const pastEventsList = [
   {
+    id: `16`,
+    show: true,
+    title: 'Homeless Services Workshop',
+    date: 'Tue, Jul 24 05:30PM',
+    cost: 'Volunteer Event',
+    link: 'https://www.eventbrite.com/e/san-francisco-homelessness-datathon-july-24th-volunteer-opportunity-tickets-47339944047?aff=efbeventtix',
+    location: 'Unity Technologies',
+    description: 'Work with the homeless and improve our program offerings at this volunteer event',
+    img: ImageDatathon1
+  },
+  {
     id: `15`,
     show: true,
     title: 'Homeless Services Workshop',
     date: 'Tue, Jul 10 05:30PM',
     cost: 'Volunteer Event',
     link: 'https://www.eventbrite.com/e/san-francisco-homelessness-datathon-july-10th-volunteer-opportunity-tickets-47339895903',
-    location: 'Unity',
+    location: 'Unity Technologies',
     description: 'Work with the homeless and improve our program offerings at this volunteer event',
     img: ImageDatathon2
   },
