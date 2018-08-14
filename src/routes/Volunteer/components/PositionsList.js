@@ -29,7 +29,7 @@ export const PositionsList = () => (
       </li>
       <li className='positions-list--item'>
         <a className='positions-list--item--title' href='mailto:sarah@sheltertech.org?subject=Legal Volunteer' >Legal</a>
-        <a href='mailto:sarah@sheltertech.org?subject=Legal Volunteer' className='positions-list--item--desc'>Help us confidently manage our legal requirements with the Mayor's Office of SF</a>
+        <a href='mailto:sarah@sheltertech.org?subject=Legal Volunteer' className='positions-list--item--desc'>Help us confidently manage our legal requirements</a>
       </li>
       <li className='positions-list--item'>
         <a className='positions-list--item--title' href='mailto:sarah@sheltertech.org?subject=Events Volunteer' >Events</a>
