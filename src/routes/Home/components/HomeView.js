@@ -84,7 +84,7 @@ export const HomeView = () => (
           <div className='home--programs--program--text'>
             <img src={ImageAskDarcelLogo} className='home--programs--program--text--logo' />
             <h3>Find Human Services that are Right For You</h3>
-            <p>In November 2017, ShelterTech began collaborating with the SF Bar Association's Homeless Advcocacy Project to build the most robust housing and human services directory in San Francisco.</p>
+            <p>In November 2017, ShelterTech began collaborating with the SF Bar Association's Homeless Advocacy Project to build the most robust housing and human services directory in San Francisco.</p>
             <p>Through the AskDarcel website, case managers, city employees, and people experiencing homelessness can find thousands of homelessness, housing, health, job, education, and other human services nearby and learn how to access them.</p>
             <p>Visit <a href='http://askdarcel.org'>AskDarcel.org</a> for more info.</p>
             <a href='https://www.citylab.com/cityfixer/2015/10/how-apps-can-help-and-harm-the-homeless/412780/' className='home--programs--program--text--further-reading'>
