@@ -17,7 +17,7 @@ export const TeamList = () => (
     </li>
     <li className='team-list--item derek'>
       <div className='team-list--item--details'>
-        <h3><a href='mailto:info@sheltertech.org'>Derek Fidler</a></h3>
+        <h3><a href='mailto:derek@sheltertech.org'>Derek Fidler</a></h3>
         <p>Product Lead</p>
       </div>
     </li>

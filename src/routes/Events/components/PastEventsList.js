@@ -24,7 +24,7 @@ class PastEventsList extends Component {
           <div>
             <p className='event-card--details--date'>{n.date}</p>
             <h4>{n.title}</h4>
-            <p className='event-card--details--description'>}{n.description}</p>
+            <p className='event-card--details--description'>{n.description}</p>
           </div>
           <small>{n.location}</small>
         </div>

@@ -17,13 +17,35 @@ import ImageTacklingHomelessness from './assets/tackling-homelessness.jpg'
 
 const eventsList = [
   {
+    id: `3`,
+    show: true,
+    title: 'Homeless Services Workshop',
+    date: 'Tue, Sep 25 05:30PM',
+    cost: 'Volunteer Event',
+    link: 'https://www.eventbrite.com/e/san-francisco-homelessness-datathon-sep-6th-volunteer-opportunity-tickets-49411168134',
+    location: 'Unity Technologies',
+    description: 'Work with the homeless and improve our program offerings at this volunteer event',
+    img: ImageDatathon2
+  },
+  {
+    id: `2`,
+    show: true,
+    title: 'Homeless Services Workshop',
+    date: 'Tue, Sep 18 05:30PM',
+    cost: 'Volunteer Event',
+    link: 'https://www.eventbrite.com/e/san-francisco-homelessness-datathon-sep-11th-volunteer-opportunity-tickets-49411220290',
+    location: 'Google Community Space',
+    description: 'Work with the homeless and improve our program offerings at this volunteer event',
+    img: ImageDatathon3
+  },
+  {
     id: `1`,
     show: true,
     title: 'Homeless Services Workshop',
-    date: 'Tue, Aug 21 05:30PM',
+    date: 'Tue, Sep 11 05:30PM',
     cost: 'Volunteer Event',
-    link: 'https://www.eventbrite.com/e/san-francisco-homelessness-datathon-aug-21st-volunteer-opportunity-tickets-48321486868?aff=ebdssbdestsearch',
-    location: 'Unity Technologies',
+    link: 'https://www.eventbrite.com/e/san-francisco-homelessness-datathon-sept-18th-volunteer-opportunity-tickets-49411240350',
+    location: 'Intersection for the Arts',
     description: 'Work with the homeless and improve our program offerings at this volunteer event',
     img: ImageDatathon4
   },
@@ -31,10 +53,10 @@ const eventsList = [
     id: `0`,
     show: true,
     title: 'Homeless Services Workshop',
-    date: 'Tue, Aug 7 05:30PM',
+    date: 'Thu, Sep 6 05:30PM',
     cost: 'Volunteer Event',
-    link: 'https://www.eventbrite.com/e/san-francisco-homelessness-datathon-aug-7th-volunteer-opportunity-tickets-48310200109?aff=ebdssbdestsearch',
-    location: 'Unity Technologies',
+    link: 'https://www.eventbrite.com/e/san-francisco-homelessness-datathon-sep-25th-volunteer-opportunity-tickets-49411258404',
+    location: "Women's Building",
     description: 'Work with the homeless and improve our program offerings at this volunteer event',
     img: ImageDatathon5
   }
