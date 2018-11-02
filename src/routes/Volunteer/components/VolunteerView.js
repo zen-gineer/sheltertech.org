@@ -7,6 +7,7 @@ import PositionsList from './PositionsList'
 
 export const VolunteerView = () => (
   <div className='volunteer'>
+    <a className='anchor' id='events' />
     <div className='content'>
       <div className='content-bg' />
       <div className='content--header'>
@@ -16,6 +17,7 @@ export const VolunteerView = () => (
 
       <EventsList />
       <div className='content--header'>
+        <a className='anchor' id='positions' />
         <h2>Join the Team</h2>
         <h3>Apply your skills to solving homelessness!<br />With a commitment of a few hours a week, you can join Sheltertech, an all-volunteer organisation building tech products for the homeless and underserved communities of San Francisco.</h3>
       </div>
