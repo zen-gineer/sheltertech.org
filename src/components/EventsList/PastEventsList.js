@@ -22,7 +22,7 @@ const pastEventsList = [
     title: 'Homeless Services Workshop',
     date: 'Sun, Oct 28 04:00PM',
     cost: 'Volunteer Event',
-    link: 'https://www.eventbrite.com/e/san-francisco-homelessness-datathon-sep-6th-volunteer-opportunity-tickets-49411168134',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
     location: 'Ruby SF',
     description: 'Work with the homeless and improve our program offerings at this volunteer event',
     img: ImageDatathon4
@@ -33,7 +33,7 @@ const pastEventsList = [
     title: 'Homeless Services Workshop',
     date: 'Wed, Oct 17 02:00PM',
     cost: 'Volunteer Event',
-    link: 'https://www.eventbrite.com/e/san-francisco-homelessness-datathon-sep-6th-volunteer-opportunity-tickets-49411168134',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
     location: 'Google Community Space',
     description: 'Work with the homeless and improve our program offerings at this volunteer event',
     img: ImageDatathon5
@@ -44,7 +44,7 @@ const pastEventsList = [
     title: 'Homeless Services Workshop',
     date: 'Tue, Oct 16 06:00PM',
     cost: 'Volunteer Event',
-    link: 'https://www.eventbrite.com/e/san-francisco-homelessness-datathon-sep-6th-volunteer-opportunity-tickets-49411168134',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
     location: 'AdRoll',
     description: 'Work with the homeless and improve our program offerings at this volunteer event',
     img: ImageDatathon6
@@ -55,7 +55,7 @@ const pastEventsList = [
     title: 'Homeless Services Workshop',
     date: 'Tue, Oct 9 06:00PM',
     cost: 'Volunteer Event',
-    link: 'https://www.eventbrite.com/e/san-francisco-homelessness-datathon-sep-6th-volunteer-opportunity-tickets-49411168134',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
     location: 'WeWork',
     description: 'Work with the homeless and improve our program offerings at this volunteer event',
     img: ImageDatathon2
@@ -66,7 +66,7 @@ const pastEventsList = [
     title: 'Homeless Services Workshop',
     date: 'Thu, Oct 4 05:30PM',
     cost: 'Volunteer Event',
-    link: 'https://www.eventbrite.com/e/san-francisco-homelessness-datathon-sep-6th-volunteer-opportunity-tickets-49411168134',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
     location: 'WeWork',
     description: 'Work with the homeless and improve our program offerings at this volunteer event',
     img: ImageDatathon1
@@ -77,7 +77,7 @@ const pastEventsList = [
     title: 'Homeless Services Workshop',
     date: 'Tue, Sep 25 05:30PM',
     cost: 'Volunteer Event',
-    link: 'https://www.eventbrite.com/e/san-francisco-homelessness-datathon-sep-6th-volunteer-opportunity-tickets-49411168134',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
     location: 'Unity Technologies',
     description: 'Work with the homeless and improve our program offerings at this volunteer event',
     img: ImageDatathon2
@@ -88,7 +88,7 @@ const pastEventsList = [
     title: 'Homeless Services Workshop',
     date: 'Tue, Sep 18 05:30PM',
     cost: 'Volunteer Event',
-    link: 'https://www.eventbrite.com/e/san-francisco-homelessness-datathon-sep-11th-volunteer-opportunity-tickets-49411220290',
+    link: 'https://www.eventbrite.com/e/san-francisco-homelessness-datathon-sept-18th-volunteer-opportunity-tickets-49411240350',
     location: 'Runway',
     description: 'Work with the homeless and improve our program offerings at this volunteer event',
     img: ImageDatathon3
@@ -99,7 +99,7 @@ const pastEventsList = [
     title: 'Homeless Services Workshop',
     date: 'Tue, Sep 11 05:30PM',
     cost: 'Volunteer Event',
-    link: 'https://www.eventbrite.com/e/san-francisco-homelessness-datathon-sept-18th-volunteer-opportunity-tickets-49411240350',
+    link: 'https://www.eventbrite.com/e/san-francisco-homelessness-datathon-sep-11th-volunteer-opportunity-tickets-49411220290',
     location: 'Intersection for the Arts',
     description: 'Work with the homeless and improve our program offerings at this volunteer event',
     img: ImageDatathon4
@@ -110,7 +110,7 @@ const pastEventsList = [
     title: 'Homeless Services Workshop',
     date: 'Thu, Sep 6 05:30PM',
     cost: 'Volunteer Event',
-    link: 'https://www.eventbrite.com/e/san-francisco-homelessness-datathon-sep-25th-volunteer-opportunity-tickets-49411258404',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
     location: "Women's Building",
     description: 'Work with the homeless and improve our program offerings at this volunteer event',
     img: ImageDatathon5
