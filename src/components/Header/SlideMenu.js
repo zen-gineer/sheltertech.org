@@ -17,6 +17,7 @@ class SlideMenu extends React.Component {
         <a href='/team'>Team</a>
         <a href='/jobs'>Jobs</a>
         <a href='mailto:info@sheltertech.org'>Contact Us</a>
+        <a href='https://medium.com/shelter-tech' target='_blank' rel='noopener'>Blog</a>
         <a>
           <form action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_top' id='donate-form'>
             <input type='hidden' name='cmd' value='_s-xclick' />

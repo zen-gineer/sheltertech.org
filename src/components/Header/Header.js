@@ -17,6 +17,7 @@ export const Header = () => (
           <li><a href='/jobs'>Jobs</a></li>
           <li><a href='/team'>Team</a></li>
           <li><a href='mailto:info@sheltertech.org'>Contact Us</a></li>
+          <li><a href='https://medium.com/shelter-tech' target='_blank' rel='noopener'>Blog</a></li>
           <li>
             <form action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_top' id='donate-form'>
               <input type='hidden' name='cmd' value='_s-xclick' />
