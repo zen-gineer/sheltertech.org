@@ -28,7 +28,7 @@ const eventsList = [
     img: ImageDatathon6
   },
   {
-    id: `2`,
+    id: `1`,
     show: true,
     title: 'Homeless Services Workshop',
     date: 'Tue, Dec 11 06:00PM',
