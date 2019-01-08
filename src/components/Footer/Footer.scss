@@ -38,14 +38,11 @@
   padding: 30px;
 }
 
-.site--footer--nav .donate-form-button {
-  width: 71px;
-  height: 29px;
-  margin: 30px;
-  &:hover {
-    position: relative;
-    top:1px;
-  }
+.site--footer--nav .donate-button {
+  margin: 20px 15px;
+  padding: 10px 15px;
+  background: $color-brand;
+  color: #fff;
 }
 
 .site--footer--legal {
