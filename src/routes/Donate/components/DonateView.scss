@@ -19,6 +19,8 @@
   max-width: 1050px;
   @include r_max($screen-sm) {
     flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
   }
 }
 
@@ -29,11 +31,12 @@
 	background-color: #FFFFFF;
   text-align: center;
   display: flex;
+  flex-shrink: 1;
+  flex-grow: 1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 15px;
-  width: 320px;
   @include r_max($screen-md) {
     margin: 15px;
     padding: 20px 20px;
@@ -57,11 +60,11 @@
 
 .donate--card p {
   margin-top: 15px;
-  max-width: 270px;
+  max-width: 260px;
 }
 
 .donate--card--custom {
-  flex-grow: 3;
+  flex-grow: 2;
 
   & .donate--card--amount {
     font-size: 36px;
