@@ -42,7 +42,7 @@ export const DonateView = () => (
         <li className='donate--card'>
           <p className='donate--card--amount'>$500</p>
           <h6>Champion</h6>
-          <p>New wifi access points able to serve 100 people in a shelter</p>
+          <p>New wifi access points able to serve 100 people in a shelter</p>
           <form action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_top' id='donate-form'>
             <input type='hidden' name='cmd' value='_s-xclick' />
             <input type='hidden' name='hosted_button_id' value='K29R6HRSEDRF6' />
@@ -53,7 +53,7 @@ export const DonateView = () => (
         <li className='donate--card'>
           <p className='donate--card--amount'>$5000</p>
           <h6>Advocate</h6>
-          <p>Gift a new shelter with wifi access— an impact that will last for years</p>
+          <p>Gift a new shelter with wifi access—<br />an impact that will last for years</p>
           <form action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_top' id='donate-form'>
             <input type='hidden' name='cmd' value='_s-xclick' />
             <input type='hidden' name='hosted_button_id' value='K29R6HRSEDRF6' />
