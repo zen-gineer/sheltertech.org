@@ -31,17 +31,17 @@ export const HomeView = () => (
       <ul className='home--cards'>
         <li className='home--cards--card'>
           <img src={ImageShelterConnectRound} />
-          <h4>ShelterConnect</h4>
+          <a href='/#shelterconnect'><h4>ShelterConnect</h4></a>
           <p>Free Wifi access in shelters<br />and transitional housing</p>
         </li>
         <li className='home--cards--card'>
-          <img src={ImageAskDarcelRound} />
-          <h4>AskDarcel</h4>
+          <a href='https://askdarcel.org/' target='_blank'><img src={ImageAskDarcelRound} /></a>
+          <h4><a href='https://askdarcel.org/' target='_blank'>AskDarcel</a></h4>
           <p>Find housing and human services you're eligibile for</p>
         </li>
         <li className='home--cards--card'>
           <img src={ImageCaseyRound} />
-          <h4>Casey</h4>
+          <a href='/#casey'><h4>Casey</h4></a>
           <p>Case management, powered by AI, accesible via voice and sms</p>
         </li>
       </ul>
@@ -61,7 +61,7 @@ export const HomeView = () => (
     <div className='home--programs'>
       <div className='home--programs--program'>
         <div className='max-width'>
-          <div className='home--programs--program--image'>
+          <div className='home--programs--program--image' id='shelterconnect'>
             <img src={ImageShelterconnectFeature} className='shelterconnect-feature' />
           </div>
           <div className='home--programs--program--text'>
@@ -100,7 +100,7 @@ export const HomeView = () => (
 
       <div className='home--programs--program'>
         <div className='max-width'>
-          <div className='home--programs--program--image'>
+          <div className='home--programs--program--image' id='casey'>
             <img src={ImageCaseyFeature} className='casey-feature' />
           </div>
           <div className='home--programs--program--text'>
