@@ -12,7 +12,7 @@ export const VolunteerView = () => (
       <div className='content-bg' />
       <div className='content--header'>
         <h2>Volunteer Events</h2>
-        <h3>Create lasting impact in just a few hours at an AskDarcel workshop where you'll work side-by-side with people who've experienced homelessness to verify information on our website and make sure the 700+ services in our system are accurate and easy to understand. </h3>
+        <h3>Create lasting impact in just a few hours at a Homeless Services Workshop where you'll work side-by-side with people who've experienced homelessness to verify information on our website and make sure the 1500+ services in our system are accurate and easy to understand. </h3>
       </div>
 
       <EventsList />

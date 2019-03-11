@@ -35,7 +35,7 @@ class EventsList extends Component {
   render () {
     return (
       <ul className='events-list'>
-        {EVENTS_LIST.filter(n => n && n.show).reverse().map(n => this.renderEventsItem(n))}
+        {EVENTS_LIST.filter(n => n && n.show).reverse().slice(0, 4).map(n => this.renderEventsItem(n))}
       </ul>
     )
   }

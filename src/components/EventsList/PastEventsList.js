@@ -31,6 +31,105 @@ import ImageTacklingHomelessness from './assets/tackling-homelessness.jpg'
 
 const pastEventsList = [
   {
+    id: `42`,
+    show: true,
+    title: 'Homeless Services Workshop',
+    date: 'Mon, Mar 4 06:00PM',
+    cost: 'Volunteer Event',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
+    location: 'WeWork',
+    description: 'Work with the homeless and improve our program offerings at this volunteer event',
+    img: ImageDatathon17
+  },
+  {
+    id: `41`,
+    show: true,
+    title: 'Homeless Services Workshop',
+    date: 'Tue, Feb 26 06:00PM',
+    cost: 'Volunteer Event',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
+    location: 'WeWork',
+    description: 'Work with the homeless and improve our program offerings at this volunteer event',
+    img: ImageDatathon16
+  },
+  {
+    id: `40`,
+    show: true,
+    title: 'Homeless Services Workshop',
+    date: 'Tue, Feb 19 06:00PM',
+    cost: 'Volunteer Event',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
+    location: 'WeWork',
+    description: 'Work with the homeless and improve our program offerings at this volunteer event',
+    img: ImageDatathon15
+  },
+  {
+    id: `39`,
+    show: true,
+    title: 'Homeless Services Workshop',
+    date: 'Tue, Feb 12 06:00PM',
+    cost: 'Volunteer Event',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
+    location: 'WeWork',
+    description: 'Work with the homeless and improve our program offerings at this volunteer event',
+    img: ImageDatathon14
+  },
+  {
+    id: `38`,
+    show: true,
+    title: 'Homeless Services Workshop',
+    date: 'Tue, Feb 5 06:00PM',
+    cost: 'Volunteer Event',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
+    location: 'WeWork',
+    description: 'Work with the homeless and improve our program offerings at this volunteer event',
+    img: ImageDatathon13
+  },
+  {
+    id: `37`,
+    show: true,
+    title: 'Homeless Services Workshop',
+    date: 'Tue, Jan 29 06:00PM',
+    cost: 'Volunteer Event',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
+    location: 'WeWork',
+    description: 'Work with the homeless and improve our program offerings at this volunteer event',
+    img: ImageDatathon12
+  },
+  {
+    id: `36`,
+    show: true,
+    title: 'Homeless Services Workshop',
+    date: 'Tue, Jan 22 06:00PM',
+    cost: 'Volunteer Event',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
+    location: 'WeWork',
+    description: 'Work with the homeless and improve our program offerings at this volunteer event',
+    img: ImageDatathon11
+  },
+  {
+    id: `35`,
+    show: true,
+    title: 'Homeless Services Workshop',
+    date: 'Tue, Jan 15 06:00PM',
+    cost: 'Volunteer Event',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
+    location: 'WeWork',
+    description: 'Work with the homeless and improve our program offerings at this volunteer event',
+    img: ImageDatathon10
+  },
+  {
+    id: `34`,
+    show: true,
+    title: 'Homeless Services Workshop',
+    date: 'Tue, Jan 8 06:00PM',
+    cost: 'Volunteer Event',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
+    location: 'WeWork',
+    description: 'Work with the homeless and improve our program offerings at this volunteer event',
+    img: ImageDatathon9
+  },
+  {
     id: `33`,
     show: true,
     title: 'Homeless Services Workshop',
