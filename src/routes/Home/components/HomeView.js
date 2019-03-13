@@ -69,7 +69,7 @@ export const HomeView = () => (
             <h3>Wifi Where It's Needed Most</h3>
             <p>People experiencing homelessness rely on the internet to apply for housing and benefits, schedule appointments with doctors and case managers, search for jobs, and stay in touch with family and friends. It's a lifeline for getting back on your feet.</p>
             <p>ShelterConnect works with internet service providers to offer free wifi in shelters and transitional housing facilties.</p>
-            <p>So far ShelterConnect has installed and provided free wifi in one shelter and two transitional housing facilities in San Francisco, providing free wifi to over 1200 people in need.</p>
+            <p>So far ShelterConnect has installed and provided free wifi in three shelters and seven transitional housing facilities in San Francisco, providing free wifi to over 3000 people in need.</p>
             <p>Learn more about <a href=''>ShelterConnect.</a></p>
             <a href='https://ww2.kqed.org/news/2015/05/18/a-homeless-man-brings-wi-fi-to-san-francisco-shelters' className='home--programs--program--text--further-reading'>
               <h5>Read about it on</h5>
