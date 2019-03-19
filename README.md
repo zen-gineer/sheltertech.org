@@ -1,5 +1,8 @@
 # ShelterTech.org Non-Profit Informational Site
 
+## Onboarding information
+https://sheltertech.quip.com/oSdpAVfvDbPq/ShelterTech-AskDarcel-Developer-Engineer
+
 ## Requirements for Development
 * node `^4.5.0`
 * yarn `^0.17.0` or npm `^3.0.0`
