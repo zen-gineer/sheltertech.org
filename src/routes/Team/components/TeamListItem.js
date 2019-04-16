@@ -1,28 +1,25 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import './TeamList.scss'
 
-export default function TeamListItem ({ slug, email, name, title }) {
+export default function TeamListItem ({ img, email, name, title }) {
   return (
-    <li className={`team-list--item ${slug}`}>
+    <li className={`team-list--item ${img}`}>
       <div className='team-list--item--details'>
-        <h3><a href={`mailto:${email}@sheltertech.org`}>{name}</a></h3>
-        <p>{title}</p>
+        <p className='team-list--item--name'><a href={`mailto:${email}@sheltertech.org`}>{name}</a></p>
+        {title ? <p className='team-list--item--title'>{title}</p> : null}
       </div>
     </li>
   )
 }
 
 TeamListItem.propTypes = {
-  slug: PropTypes.string,
+  img: PropTypes.string,
   email: PropTypes.string,
   name: PropTypes.string,
   title: PropTypes.string
 }
 
 TeamListItem.defaultProps = {
-  slug: 'no-photo',
-  email: 'info',
-  name: 'Name',
-  title: 'Title'
+  img: 'placeholder',
+  email: 'info'
 }

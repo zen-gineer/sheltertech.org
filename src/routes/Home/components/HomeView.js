@@ -5,10 +5,10 @@ import './HomeView.scss'
 import ImageShelterConnectRound from '../assets/shelterconnect-round.png'
 import ImageAskDarcelRound from '../assets/askdarcel-round.png'
 import ImageCaseyRound from '../assets/casey-round.png'
-import ImageDarcel from '../assets/darcel-story.jpg'
 import ImageShelterconnectFeature from '../assets/shelterconnect-feature.png'
 import ImageShelterconnectLogo from '../assets/shelterconnect-logo.png'
 import ImageKQED from '../assets/kqed-logo.png'
+import ImageChronicle from '../assets/chronicle-logo.png'
 import ImageAskDarcelFeature from '../assets/askdarcel-feature.png'
 import ImageAskDarcelLogo from '../assets/askdarcel-logo.png'
 import ImageCitylab from '../assets/citylab-logo.png'
@@ -70,11 +70,18 @@ export const HomeView = () => (
             <p>People experiencing homelessness rely on the internet to apply for housing and benefits, schedule appointments with doctors and case managers, search for jobs, and stay in touch with family and friends. It's a lifeline for getting back on your feet.</p>
             <p>ShelterConnect works with internet service providers to offer free wifi in shelters and transitional housing facilties.</p>
             <p>So far ShelterConnect has installed and provided free wifi in three shelters and seven transitional housing facilities in San Francisco, providing free wifi to over 3000 people in need.</p>
-            <p>Learn more about <a href=''>ShelterConnect.</a></p>
-            <a href='https://ww2.kqed.org/news/2015/05/18/a-homeless-man-brings-wi-fi-to-san-francisco-shelters' className='home--programs--program--text--further-reading'>
+            <p>Learn more about <a href='http://sheltertech.org/shelterconnect-flyer.pdf' target='_blank'>ShelterConnect.</a></p>
+            <div className='home--programs--program--text--further-reading'>
               <h5>Read about it on</h5>
-              <img src={ImageKQED} className='home--programs--program--text--kqed-image' />
-            </a>
+              <span className=''>
+                <a target='_blank' rel='noopener' href='https://www.sfchronicle.com/business/article/Smartphones-are-a-lifeline-for-the-young-13582809.php'>
+                  <img src={ImageChronicle} className='home--programs--program--text--chronicle-image' />
+                </a>
+                <a target='_blank' rel='noopener' href='https://ww2.kqed.org/news/2015/05/18/a-homeless-man-brings-wi-fi-to-san-francisco-shelters'>
+                  <img src={ImageKQED} className='home--programs--program--text--kqed-image' />
+                </a>
+              </span>
+            </div>
           </div>
         </div>
       </div>
@@ -105,10 +112,10 @@ export const HomeView = () => (
           </div>
           <div className='home--programs--program--text'>
             <img src={ImageCaseyLogo} className='home--programs--program--text--logo casey-logo' />
-            <h3>Case Management – Powered by AI</h3>
-            <p>Casey is an interactive bot that provides local resource recommendations and basic case management.</p>
-            <p>Casey uses conversational language and resource data from AskDarcel to provide users with the best recommendations possible for their needs.</p>
-            <p>Look out for Casey in late 2018.</p>
+            <h3>Casey — Self Service Case Management</h3>
+            <p>Utilizing data from AskDarcel and hundreds of research hours, Casey provides step by step guides for many of the most common problems faced by people at risk of or experiencing homelessness.</p>
+            <p>Casey guides are delivered where they're needed most; paper guides will be available in shelters and resource centers early 2019.</p>
+            <p>Digital guides will be coming in Q3 2019.</p>
           </div>
         </div>
       </div>
