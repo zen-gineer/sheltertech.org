@@ -19,7 +19,7 @@ export const TeamView = () => (
           img='darcel'
           email='darcel'
           name='Darcel Jackson'
-          title='Co-Founder'
+          title='Founder'
         />
         <TeamListItem
           img='molly-c'
@@ -31,13 +31,13 @@ export const TeamView = () => (
           img='phil'
           email='phil'
           name='Phil Chu'
-          title='Executive Team'
+          title='Exec. Team'
         />
         <TeamListItem
           img='benjamin'
           email='benjamin'
           name='Benjamin Maurice'
-          title='CFO'
+          title='CFO / Exec. Team'
         />
         <TeamListItem
           img='derek'
@@ -61,7 +61,7 @@ export const TeamView = () => (
           img='joe'
           email='joe'
           name='Joe Freund'
-          title='Development Lead'
+          title='Tech Lead / Exec. Team'
         />
         <TeamListItem
           img='calvin'
@@ -79,7 +79,7 @@ export const TeamView = () => (
           img='jasmine'
           email='jasmine'
           name='Jasmine Cheng'
-          title='Volunteer Lead'
+          title='Volunteer Lead / Exec. Team'
         />
         <TeamListItem
           img='vlad'
@@ -546,7 +546,7 @@ export const TeamView = () => (
           img='hicham'
           email='hicham'
           name='Hicham Sabir'
-          title='Board Chair'
+          title='Co-Founder / Board Chair'
         />
         <TeamListItem
           img='alice'
