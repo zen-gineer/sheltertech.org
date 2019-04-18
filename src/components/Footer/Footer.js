@@ -21,9 +21,7 @@ export const Footer = () => (
         <li>ein: 38-3984099</li>
         <li>made in san francisco</li>
         <li>© 2018 All Rights Reserved</li>
-        <li><a href='https://medium.com/shelter-tech'>blog</a></li>
         <li><a href='https://www.facebook.com/ShelterTechOrg/'>facebook</a></li>
-        <li><a href='https://www.instagram.com/shelter_tech/'>instagram</a></li>
       </ul>
     </div>
   </div>
