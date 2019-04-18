@@ -226,7 +226,7 @@ export const AnnualReportView = () => (
               <p>Launch our first Casey product</p>
             </li>
           </ul>
-          <p className='annual-report--text'>Want even more details? Read the full annual report <a href='%PUBLIC_URL%/ShelterTech-Annual-Report-2018.pdf'>here</a>.</p>
+          <p className='annual-report--text'>Want even more details? Read the full annual report <a href={process.env.PUBLIC_URL = 'ShelterTech-Annual-Report-2018.pdf'} target='_blank'>here</a>.</p>
         </div>
       </div>
 
