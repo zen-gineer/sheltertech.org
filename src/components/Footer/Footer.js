@@ -7,6 +7,7 @@ export const Footer = () => (
     <nav className='site--footer--nav'>
       <ul>
         <li><a href='/'>Programs</a></li>
+        <li><a href='/annual-report-2018'>Impact</a></li>
         <li><a href='/events'>Events</a></li>
         <li><a href='/get-involved'>Get Involved</a></li>
         <li><a href='/team'>Team</a></li>
