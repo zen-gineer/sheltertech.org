@@ -10,7 +10,7 @@ export const TeamView = () => (
       <div className='content-bg' />
       <div className='content--header'>
         <h2>Team</h2>
-        <h3>Our award winning, all-volunteer team is redefining what it means to give back. Want to join? <a href='/volunteer'>Learn more here.</a></h3>
+        <h3>Our award winning, all-volunteer team is redefining what it means to give back. Want to join? <a href='/get-involved'>Learn more here.</a></h3>
       </div>
 
       <ul className='team-list'>
