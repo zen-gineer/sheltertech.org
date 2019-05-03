@@ -31,6 +31,39 @@ import ImageTacklingHomelessness from './assets/tackling-homelessness.jpg'
 
 const pastEventsList = [
   {
+    id: `50`,
+    show: true,
+    title: 'Homeless Services Workshop',
+    date: 'Tue, Apr 30 6:00PM',
+    cost: 'Volunteer Event',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
+    location: 'WeWork',
+    description: 'Work with the homeless and improve our program offerings at this volunteer event',
+    img: ImageDatathon5
+  },
+  {
+    id: `49`,
+    show: true,
+    title: 'Homeless Services Workshop',
+    date: 'Tue, Apr 23 6:00PM',
+    cost: 'Volunteer Event',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
+    location: 'WeWork',
+    description: 'Work with the homeless and improve our program offerings at this volunteer event',
+    img: ImageDatathon4
+  },
+  {
+    id: `48`,
+    show: true,
+    title: 'Homeless Services Workshop',
+    date: 'Tue, Apr 16 6:00PM',
+    cost: 'Volunteer Event',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
+    location: 'WeWork',
+    description: 'Work with the homeless and improve our program offerings at this volunteer event',
+    img: ImageDatathon3
+  },
+  {
     id: `47`,
     show: true,
     title: 'Homeless Services Workshop',

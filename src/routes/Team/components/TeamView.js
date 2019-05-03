@@ -552,13 +552,11 @@ export const TeamView = () => (
           img='alice'
           email='alice'
           name='Alice Henry'
-          title='Treasurer'
         />
         <TeamListItem
           img='derek'
           email='derek'
           name='Derek Fidler'
-          title='Secretary'
         />
         <TeamListItem
           img='phil'
