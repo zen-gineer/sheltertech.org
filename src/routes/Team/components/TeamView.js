@@ -22,9 +22,9 @@ export const TeamView = () => (
           title='Founder'
         />
         <TeamListItem
-          img='molly-c'
-          email='mollycohen'
-          name='Molly Cohen'
+          img='bill-soward'
+          email='bill'
+          name='Bill Soward'
           title='Executive Director'
         />
         <TeamListItem
@@ -549,9 +549,9 @@ export const TeamView = () => (
           title='Co-Founder / Board Chair'
         />
         <TeamListItem
-          img='alice'
-          email='alice'
-          name='Alice Henry'
+          img='molly-c'
+          email='mollycohen'
+          name='Molly Cohen'
         />
         <TeamListItem
           img='derek'
@@ -577,11 +577,6 @@ export const TeamView = () => (
           img='richard'
           email='richard'
           name='Richard Xia'
-        />
-        <TeamListItem
-          img='molly-c'
-          email='mollycohen'
-          name='Molly Cohen'
         />
         <TeamListItem
           img='sarah'
