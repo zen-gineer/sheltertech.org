@@ -12,7 +12,11 @@ export const PositionsList = () => (
         <p>Description</p>
       </li>
       <li className='positions-list--item'>
-        <a className='positions-list--item--title' href='mailto:jasmine@sheltertech.org?subject=Growth Volunteer' >Growth Lead</a>
+        <a className='positions-list--item--title' href='https://docs.google.com/document/d/10PhfYLb28PqIc2Ef6gwhlStujzP8BPBmvnjcf3W2-3U/edit?usp=sharing' >Chief Financial Officer</a>
+        <a href='https://docs.google.com/document/d/10PhfYLb28PqIc2Ef6gwhlStujzP8BPBmvnjcf3W2-3U/edit?usp=sharing' className='positions-list--item--desc'>Lead ShelterTech's financial strategy and manage our financial operations</a>
+      </li>
+      <li className='positions-list--item'>
+        <a className='positions-list--item--title' href='mailto:jasmine@sheltertech.org?subject=Growth Volunteer' >Growth</a>
         <a href='mailto:jasmine@sheltertech.org?subject=Business Development Volunteer' className='positions-list--item--desc'>Help us get our products adopted by service providers and people experiencing homlessness</a>
       </li>
       <li className='positions-list--item'>
@@ -20,7 +24,7 @@ export const PositionsList = () => (
         <a href='mailto:jasmine@sheltertech.org?subject=Development Volunteer' className='positions-list--item--desc'>Full stack, Front End, and Dev Ops opportunities</a>
       </li>
       <li className='positions-list--item'>
-        <a className='positions-list--item--title' href='https://sheltertech.quip.com/cUa8Ay9ui5Ds' >Product Design</a>
+        <a className='positions-list--item--title' href='https://sheltertech.quip.com/cUa8Ay9ui5Ds' >Product</a>
         <a href='https://sheltertech.quip.com/cUa8Ay9ui5Ds' className='positions-list--item--desc'>Create products for some of the most vulnerable communities</a>
       </li>
       <li className='positions-list--item'>

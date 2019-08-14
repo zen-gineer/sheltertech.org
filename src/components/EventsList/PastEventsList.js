@@ -31,6 +31,50 @@ import ImageTacklingHomelessness from './assets/tackling-homelessness.jpg'
 
 const pastEventsList = [
   {
+    id: `54`,
+    show: true,
+    title: 'Homeless Services Workshop',
+    date: 'Tue, May 28 6:00PM',
+    cost: 'Public Volunteer Event',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
+    location: 'WeWork',
+    description: 'Work with the homeless and improve our program offerings at this volunteer event',
+    img: ImageDatathon9
+  },
+  {
+    id: `53`,
+    show: true,
+    title: 'Homeless Services Workshop',
+    date: 'Tue, May 21 6:00PM',
+    cost: 'ShelterTech Private Event',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
+    location: 'WeWork',
+    description: 'Work with the homeless and improve our program offerings at this volunteer event',
+    img: ImageDatathon8
+  },
+  {
+    id: `52`,
+    show: true,
+    title: 'Homeless Services Workshop',
+    date: 'Tue, May 14 6:00PM',
+    cost: 'Salesforce Private Event',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
+    location: 'Salesforce West',
+    description: 'Work with the homeless and improve our program offerings at this volunteer event',
+    img: ImageDatathon7
+  },
+  {
+    id: `51`,
+    show: true,
+    title: 'Homeless Services Workshop',
+    date: 'Tue, May 7 6:00PM',
+    cost: 'Zoox Private Event',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
+    location: 'WeWork',
+    description: 'Work with the homeless and improve our program offerings at this volunteer event',
+    img: ImageDatathon6
+  },
+  {
     id: `50`,
     show: true,
     title: 'Homeless Services Workshop',
