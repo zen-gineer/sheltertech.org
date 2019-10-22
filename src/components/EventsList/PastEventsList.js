@@ -31,6 +31,138 @@ import ImageTacklingHomelessness from './assets/tackling-homelessness.jpg'
 
 const pastEventsList = [
   {
+    id: `66`,
+    show: true,
+    title: 'Homeless Services Workshop',
+    date: 'Tue, Oct 21 6:00PM',
+    cost: 'Uber Private Event',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
+    location: '555 Market',
+    description: 'Work with the homeless and improve our program offerings at this volunteer event',
+    img: ImageDatathon1
+  },
+  {
+    id: `65`,
+    show: true,
+    title: 'Homeless Services Workshop',
+    date: 'Tue, Sep 24 6:00PM',
+    cost: 'Public Volunteer Event',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
+    location: 'WeWork',
+    description: 'Work with the homeless and improve our program offerings at this volunteer event',
+    img: ImageDatathon20
+  },
+  {
+    id: `64`,
+    show: true,
+    title: 'Homeless Services Workshop',
+    date: 'Tue, Sep 10 4:00PM',
+    cost: 'Groupon Private Event',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
+    location: 'WeWork',
+    description: 'Work with the homeless and improve our program offerings at this volunteer event',
+    img: ImageDatathon19
+  },
+  {
+    id: `63`,
+    show: true,
+    title: 'Homeless Services Workshop',
+    date: 'Tue, Aug 27 2:30PM',
+    cost: 'Public Volunteer Event',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
+    location: 'WeWork',
+    description: 'Work with the homeless and improve our program offerings at this volunteer event',
+    img: ImageDatathon18
+  },
+  {
+    id: `62`,
+    show: true,
+    title: 'Homeless Services Workshop',
+    date: 'Thu, Aug 15 6:00PM',
+    cost: 'Twitch Private Event',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
+    location: 'WeWork',
+    description: 'Work with the homeless and improve our program offerings at this volunteer event',
+    img: ImageDatathon17
+  },
+  {
+    id: `61`,
+    show: true,
+    title: 'Homeless Services Workshop',
+    date: 'Tue, Jul 23 6:00PM',
+    cost: 'Public Volunteer Event',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
+    location: 'WeWork',
+    description: 'Work with the homeless and improve our program offerings at this volunteer event',
+    img: ImageDatathon16
+  },
+  {
+    id: `60`,
+    show: true,
+    title: 'Homeless Services Workshop',
+    date: 'Tue, Jul 16 6:00PM',
+    cost: 'Public Volunteer Event',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
+    location: 'WeWork',
+    description: 'Work with the homeless and improve our program offerings at this volunteer event',
+    img: ImageDatathon15
+  },
+  {
+    id: `59`,
+    show: true,
+    title: 'Homeless Services Workshop',
+    date: 'Tue, Jul 9 6:00PM',
+    cost: 'Public Volunteer Event',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
+    location: 'WeWork',
+    description: 'Work with the homeless and improve our program offerings at this volunteer event',
+    img: ImageDatathon14
+  },
+  {
+    id: `58`,
+    show: true,
+    title: 'Homeless Services Workshop',
+    date: 'Tue, Jun 25 6:00PM',
+    cost: 'Public Volunteer Event',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
+    location: 'WeWork',
+    description: 'Work with the homeless and improve our program offerings at this volunteer event',
+    img: ImageDatathon13
+  },
+  {
+    id: `57`,
+    show: true,
+    title: 'Homeless Services Workshop',
+    date: 'Tue, Jun 18 6:00PM',
+    cost: 'Startups Give Back Event',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
+    location: 'WeWork',
+    description: 'Work with the homeless and improve our program offerings at this volunteer event',
+    img: ImageDatathon12
+  },
+  {
+    id: `56`,
+    show: true,
+    title: 'Homeless Services Workshop',
+    date: 'Thu, Jun 13 6:00PM',
+    cost: 'Touch of Modern Private Event',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
+    location: '1045 Sansome',
+    description: 'Work with the homeless and improve our program offerings at this volunteer event',
+    img: ImageDatathon11
+  },
+  {
+    id: `55`,
+    show: true,
+    title: 'Homeless Services Workshop',
+    date: 'Tue, Jun 4 6:00PM',
+    cost: 'Women 4 Good Private Event',
+    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
+    location: 'WeWork',
+    description: 'Work with the homeless and improve our program offerings at this volunteer event',
+    img: ImageDatathon10
+  },
+  {
     id: `54`,
     show: true,
     title: 'Homeless Services Workshop',

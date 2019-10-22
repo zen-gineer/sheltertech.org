@@ -31,48 +31,37 @@ import ImageTacklingHomelessness from './assets/tackling-homelessness.jpg'
 
 const eventsList = [
   {
-    id: `15`,
+    id: `3`,
     show: true,
     title: 'Homeless Services Workshop',
-    date: 'Tue, Jun 25 6:00PM',
+    date: 'Tue, Nov 19 6:00PM',
     cost: 'Public Volunteer Event',
     link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
     location: 'WeWork',
     description: 'Work with the homeless and improve our program offerings at this volunteer event',
-    img: ImageDatathon13
+    img: ImageDatathon16
   },
   {
-    id: `14`,
+    id: `2`,
     show: true,
     title: 'Homeless Services Workshop',
-    date: 'Tue, Jun 18 6:00PM',
-    cost: 'Startups Give Back Event',
+    date: 'Tue, Nov 12 6:00PM',
+    cost: 'Public Volunteer Event',
     link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
     location: 'WeWork',
     description: 'Work with the homeless and improve our program offerings at this volunteer event',
-    img: ImageDatathon12
+    img: ImageDatathon15
   },
   {
-    id: `13`,
+    id: `1`,
     show: true,
     title: 'Homeless Services Workshop',
-    date: 'Thu, Jun 13 6:00PM',
-    cost: 'Touch of Modern Private Event',
+    date: 'Thu, Oct 24',
+    cost: 'Uber Private Event',
     link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
-    location: '1045 Sansome',
+    location: '555 Market',
     description: 'Work with the homeless and improve our program offerings at this volunteer event',
-    img: ImageDatathon11
-  },
-  {
-    id: `12`,
-    show: true,
-    title: 'Homeless Services Workshop',
-    date: 'Tue, Jun 4 6:00PM',
-    cost: 'Women 4 Good Private Event',
-    link: 'https://www.eventbrite.com/o/sheltertech-10605816644',
-    location: 'WeWork',
-    description: 'Work with the homeless and improve our program offerings at this volunteer event',
-    img: ImageDatathon10
+    img: ImageDatathon14
   }
 ]
 
