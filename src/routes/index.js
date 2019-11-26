@@ -5,6 +5,7 @@ import GetInvolved from './GetInvolved'
 import Events from './Events'
 import Team from './Team'
 import Donate from './Donate'
+import GivingTuesday from './GivingTuesday'
 import AnnualReport from './AnnualReport2018'
 
 /*  Note: Instead of using JSX, we recommend using react-router
@@ -30,6 +31,10 @@ export const createRoutes = (store) => ({
     {
       path: 'donate',
       indexRoute: Donate
+    },
+    {
+      path: 'givingtuesday',
+      indexRoute: GivingTuesday
     },
     {
       path: 'annual-report-2018',
