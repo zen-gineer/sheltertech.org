@@ -15,7 +15,7 @@ export default class GivingTuesdayView extends Component {
             <div className='content-left'>
               <img src={GivingTuesdayLogo} className='GivingTuesday--photo' alt='Giving Tuesday' />
               <h2>This Giving Tuesday we invite you to support our “Wiring an SF Shelter” campaign</h2>
-              <p>This Giving Tuesday we are reaching out to the ShelterTech community to ask you to help us raise $12,500 to complete our biggest WiFi project so far, and in turn better the lives of hundreds of low-income residents.
+              <p>This Giving Tuesday we are reaching out to the ShelterTech community to ask you to help us raise $9,000 to complete our biggest WiFi project so far, and in turn better the lives of hundreds of low-income residents.
             </p>
               <p>At ShelterTech, we are dedicated to solving the biggest technology challenges faced by those experiencing homelessness. We believe that technology enriches the lives of millions of Bay Area residents, but largely ignores the most vulnerable people in our cities — creating a digital divide that grows wider every day.
             </p>
@@ -23,7 +23,7 @@ export default class GivingTuesdayView extends Component {
               <h2>Bridging the Divide with WiFi</h2>
               <p>Access to the internet has become essential to our daily lives, but for the least fortunate it remains unaffordable. This Giving Tuesday, we hope to extend the impact of our ShelterConnect Program beyond our current 1,000 nightly residents within 15 shelters in SF by wiring one of the largest shelters in SF. Chartered to house formerly homeless adults, many of the individuals who reside here are without the means to connect with the outside world. When sheltered and connected to loved ones, healthcare, and job providers, at-risk individuals can regain autonomy and dignity and lead a more healthy, happy, and productive life.
             </p>
-              <p>We ask for your support this holiday season to make this project a reality. Currently, ShelterConnect has raised 75% of the $50,000 in funding required to bring this WiFi project to fruition. With your support, we will raise the remaining $12,500 funds this Giving Tuesday — paving the way for a wired shelter by mid-2020.
+              <p>We ask for your support this holiday season to make this project a reality. Currently, ShelterConnect has raised 70% of the $30,000 in funding required to bring this WiFi project to fruition. With your support, we will raise the remaining $9,000 funds this Giving Tuesday — paving the way for a wired shelter by mid-2020.
             </p>
               <img src={StatsGroup} className='GivingTuesday--photo' alt='SF Point in Time Survey Stats' />
               <h2>The ShelterTech Story</h2>

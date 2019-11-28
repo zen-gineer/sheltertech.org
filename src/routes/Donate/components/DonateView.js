@@ -1,4 +1,5 @@
 import React from 'react'
+import GivingTuesdayBanner from '../../../components/GivingTuesdayBanner'
 
 import ImageDonate from '../assets/donate-btn.png'
 
@@ -9,6 +10,7 @@ import './DonateView.scss'
 
 export const DonateView = () => (
   <div className='team donate'>
+    <GivingTuesdayBanner />
     <div className='content'>
       <div className='content-bg' />
       <div className='content--header'>
