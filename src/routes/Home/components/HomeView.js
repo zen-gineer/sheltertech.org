@@ -1,6 +1,5 @@
 import React from 'react'
 import './HomeView.scss'
-import GivingTuesdayBanner from '../../../components/GivingTuesdayBanner'
 
 // import images
 import ImageShelterConnectRound from '../assets/shelterconnect-round.png'
@@ -18,7 +17,6 @@ import ImageCaseyLogo from '../assets/casey-logo.png'
 
 export const HomeView = () => (
   <div className='home'>
-    <GivingTuesdayBanner />
     <div className='home--hero'>
       <div className='home--hero--text'>
         <h1>The homeless need<br />technology, too</h1>
