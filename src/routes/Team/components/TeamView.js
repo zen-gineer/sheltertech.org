@@ -16,70 +16,64 @@ export const TeamView = () => (
       <ul className='team-list'>
         <h4 className='team-list-header'>ShelterTech Leadership</h4>
         <TeamListItem
-          img='darcel'
-          email='darcel'
-          name='Darcel Jackson'
-          title='Founder'
-        />
-        <TeamListItem
           img='bill-soward'
           email='bill'
           name='Bill Soward'
           title='Executive Director'
         />
         <TeamListItem
-          img='phil'
-          email='phil'
-          name='Phil Chu'
-          title='Exec. Team'
+          img='husam-najib'
+          email='husam'
+          name='Husam Najib'
+          title='Co-CFO'
         />
         <TeamListItem
-          img='benjamin'
-          email='benjamin'
-          name='Benjamin Maurice'
-          title='CFO / Exec. Team'
+          img='placeholder'
+          email='jenny'
+          name='Jenny Ho'
+          title='Co-CFO'
         />
         <TeamListItem
-          img='derek'
-          email='derek'
-          name='Derek Fidler'
-          title='Co-Founder / Product Lead'
+          img='laura-barrera-vera'
+          email='laura'
+          name='Laura Barrera-Vera'
+          title='AskDarcel Program Manager'
         />
         <TeamListItem
-          img='glasha'
-          email='glasha'
-          name='Glasha Marcon'
-          title='Casey Lead'
+          img='arielle-robles'
+          email='arielle'
+          name='Arielle Robles'
+          title='ShelterConnect Program Co-Lead'
         />
         <TeamListItem
-          img='dillon'
-          email='dillon'
-          name='Dillon Cruz'
-          title='ShelterConnect Lead'
+          img='chris-yang'
+          email='chrisyang'
+          name='Chris Yang'
+          title='ShelterConnect Program Co-Lead'
         />
         <TeamListItem
           img='joe'
           email='joe'
           name='Joe Freund'
-          title='Tech Lead / Exec. Team'
+          title='Tech Lead & Exec. Team'
         />
         <TeamListItem
-          img='calvin'
-          email='calvin'
-          name='Calvin Harjono'
-          title='Community Lead'
-        />
-        <TeamListItem
-          img='ivan'
-          email='ivan'
-          name='Ivan Hartanto'
-          title='Datathon Lead'
+          img='glasha'
+          email='glasha'
+          name='Glasha Marcon'
+          title='Research Lead'
         />
         <TeamListItem
           img='jasmine'
           email='jasmine'
           name='Jasmine Cheng'
-          title='Volunteer Lead / Exec. Team'
+          title='Co-Volunteer Lead & Exec. Team'
+        />
+        <TeamListItem
+          img='placeholder'
+          email='julia'
+          name='Julia Zhao'
+          title='Co-Volunteer Lead'
         />
         <TeamListItem
           img='vlad'
@@ -88,9 +82,9 @@ export const TeamView = () => (
           title='Marketing Lead'
         />
         <TeamListItem
-          img='jr'
-          email='jr'
-          name='JR Formanek'
+          img='keith-weber'
+          email='keith'
+          name='Keith Weber'
           title='Fundraising Lead'
         />
         <TeamListItem
@@ -100,32 +94,92 @@ export const TeamView = () => (
           title='Insights Lead'
         />
         <TeamListItem
-          img='vix'
-          email='vix'
-          name='Vix Jensen'
-          title='Operations Manager'
+          img='placeholder'
+          email='edward'
+          name='Edward Wang'
+          title='Service Net Lead & Exec. Team'
+        />
+        <TeamListItem
+          img='phil'
+          email='phil'
+          name='Phil Chu'
+          title='Exec. Team'
+        />
+        <TeamListItem
+          img='max'
+          email='max'
+          name='Max Stuart'
+          title='TPM & Exec. Team'
+        />
+        <TeamListItem
+          img='darcel'
+          email='darcel'
+          name='Darcel Jackson'
+          title='Co-Founder'
+        />
+        <TeamListItem
+          img='hicham'
+          email='hicham'
+          name='Hicham Sabir'
+          title='Co-Founder & President'
+        />
+        <TeamListItem
+          img='derek'
+          email='derek'
+          name='Derek Fidler'
+          title='Co-Founder & Design Lead'
         />
       </ul>
 
       <ul className='team-list'>
         <h4 className='team-list-header'>AskDarcel Team</h4>
         <TeamListItem
-          img='derek'
-          email='derek'
-          name='Derek Fidler'
-          title='Product Manager'
+          img='laura-barrera-vera'
+          email='laura'
+          name='Laura Barrera-Vera'
+          title='AskDarcel Program Manager'
         />
         <TeamListItem
-          img='max'
-          email='max'
-          name='Max Stuart'
-          title='Project Manager'
+          img='stephen-soward'
+          email='stephen'
+          name='Stephen Soward'
+          title='Product Lead'
+        />
+        <TeamListItem
+          img='glasha'
+          email='glasha'
+          name='Glasha Marcon'
+          title='Research Lead'
+        />
+        <TeamListItem
+          img='rachel-poonsiriwong'
+          email='rachel'
+          name='Rachel Poonsiriwong'
+          title='Research Manager'
         />
         <TeamListItem
           img='joe'
           email='joe'
           name='Joe Freund'
           title='Development Lead'
+        />
+        <TeamListItem
+          img='derek'
+          email='derek'
+          name='Derek Fidler'
+          title='Design Lead'
+        />
+        <TeamListItem
+          img='jacob-frank'
+          email='jacob'
+          name='Jacob Frank'
+          title='Design Manager'
+        />
+        <TeamListItem
+          img='max'
+          email='max'
+          name='Max Stuart'
+          title='Technical Project Manager'
         />
         <TeamListItem
           img='richard'
@@ -140,10 +194,10 @@ export const TeamView = () => (
           title='Back End Lead'
         />
         <TeamListItem
-          img='ivan'
-          email='ivan'
-          name='Ivan Hartanto'
-          title='Growth Lead'
+          img='fred-ciaramaglia'
+          email='fred'
+          name='Fred Ciaramaglia'
+          title='QA Lead'
         />
         <TeamListItem
           img='ruochen'
@@ -152,28 +206,27 @@ export const TeamView = () => (
           title='Analytics Manager'
         />
         <TeamListItem
-          img='calvin'
-          email='calvin'
-          name='Calvin Harjono'
-          title='Growth Team'
+          email='andrew'
+          name='Andrew Luu'
+          title='Research Team'
         />
         <TeamListItem
-          img='david'
-          email='David'
-          name='David Pindrys'
+          img='ada-lau'
+          email='ada'
+          name='Ada Lau'
           title='Product Designer'
         />
         <TeamListItem
-          img='sarah-g'
-          email='sarahglanville'
-          name='Sarah Glanville'
-          title='UX Researcher'
+          img='amanda-liu'
+          email='amanda'
+          name='Amanda Liu'
+          title='Product Designer'
         />
         <TeamListItem
-          img='xander'
-          email='alexandersung'
-          name='Xander Sung'
-          title='Product Designer'
+          img='ryan-rodriguez'
+          email='ryan'
+          name='Ryan Rodriguez'
+          title='PM & Product Designer'
         />
         <TeamListItem
           img='jasmine'
@@ -318,109 +371,28 @@ export const TeamView = () => (
       </ul>
 
       <ul className='team-list'>
-        <h4 className='team-list-header'>Casey Team</h4>
-        <TeamListItem
-          img='glasha'
-          email='glasha'
-          name='Glasha Marcon'
-          title='Product Manager'
-        />
-        <TeamListItem
-          img='vivien'
-          email='vivien'
-          name='Vivien Ho'
-          title='Project Manager'
-        />
-        <TeamListItem
-          img='emily'
-          email='emily'
-          name='Emily Zhang'
-          title='UX Interview Guide Writer'
-        />
-        <TeamListItem
-          img='paul'
-          email='paul'
-          name='Paul Metni'
-          title='Interviewer'
-        />
-        <TeamListItem
-          img='faraz'
-          email='faraz'
-          name='Faraz Mujtaba'
-          title='Design Lead'
-        />
-        <TeamListItem
-          email='selma'
-          name='Selma Chang'
-          title='Interview Coordinator'
-        />
-        <TeamListItem
-          email='rachel'
-          name='Rachel Poonsiriwong'
-          title='Designer / Researcher'
-        />
-        <TeamListItem
-          email='michael'
-          name='Michael Polce'
-          title='Copywriter'
-        />
-        <TeamListItem
-          email='eric'
-          name='Eric Chuck'
-          title='Copywriter / Interviewer'
-        />
-        <TeamListItem
-          email='cassandra'
-          name='Cassandra Ngan'
-          title='Designer'
-        />
-        <TeamListItem
-          img='nathan'
-          email='nathan'
-          name='Nathan Spicer'
-          title='Casey Team'
-        />
-        <TeamListItem
-          img='garret'
-          email='garret'
-          name='Garret Houghton'
-          title='Casey Team'
-        />
-        <TeamListItem
-          img='maris'
-          email='maris'
-          name='Maris Yanow'
-          title='Casey Team'
-        />
-        <TeamListItem
-          img='tiffany'
-          email='tiffany'
-          name='Tiffany McKinley'
-          title='Casey Team'
-        />
-      </ul>
-
-      <ul className='team-list'>
         <h4 className='team-list-header'>ShelterConnect Team</h4>
         <TeamListItem
-          img='dillon'
-          email='dillon'
-          name='Dillon Cruz'
-          title='Product Manager'
+          img='arielle-robles'
+          email='arielle'
+          name='Arielle Robles'
+          title='ShelterConnect Program Co-Lead'
         />
         <TeamListItem
-          email='jan'
-          name='Jan Barnes'
-          title='Policy Lead'
+          img='chris-yang'
+          email='chrisyang'
+          name='Chris Yang'
+          title='ShelterConnect Program Co-Lead'
+        />
+        <TeamListItem
+          img='isaac-chao'
+          email='isaac'
+          name='Isaac Chao'
+          title='ShelterConnect Team'
         />
         <TeamListItem
           email='guillermo'
           name='Guillermo Huerta'
-          title='Tech Lead'
-        />
-        <TeamListItem
-          email='seth'
-          name='Xayaseth Boudsady'
           title='ShelterConnect Team'
         />
       </ul>
@@ -549,24 +521,26 @@ export const TeamView = () => (
           title='Co-Founder / Board Chair'
         />
         <TeamListItem
-          img='molly-c'
-          email='mollycohen'
-          name='Molly Cohen'
+          img='joe'
+          email='joe'
+          name='Joe Freund'
+          title='Treasurer'
         />
         <TeamListItem
           img='derek'
           email='derek'
           name='Derek Fidler'
+          title='Secretary'
+        />
+        <TeamListItem
+          img='molly-c'
+          email='mollycohen'
+          name='Molly Cohen'
         />
         <TeamListItem
           img='phil'
           email='phil'
           name='Phil Chu'
-        />
-        <TeamListItem
-          img='joe'
-          email='joe'
-          name='Joe Freund'
         />
         <TeamListItem
           img='leland'
@@ -579,9 +553,9 @@ export const TeamView = () => (
           name='Richard Xia'
         />
         <TeamListItem
-          img='sarah'
-          email='sarah'
-          name='Sarah Freier Miller'
+          img='laura-barrera-vera'
+          email='laura'
+          name='Laura Barrera-Vera'
         />
       </ul>
 
