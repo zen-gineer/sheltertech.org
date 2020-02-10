@@ -37,19 +37,19 @@ export const TeamView = () => (
           img='laura-barrera-vera'
           email='laura'
           name='Laura Barrera-Vera'
-          title='AskDarcel Program Manager'
+          title='AskDarcel/SFSG Lead'
         />
         <TeamListItem
           img='arielle-robles'
           email='arielle'
           name='Arielle Robles'
-          title='ShelterConnect Program Co-Lead'
+          title='ShelterConnect Co-Lead'
         />
         <TeamListItem
           img='chris-yang'
           email='chrisyang'
           name='Chris Yang'
-          title='ShelterConnect Program Co-Lead'
+          title='ShelterConnect Co-Lead'
         />
         <TeamListItem
           img='joe'
@@ -86,6 +86,12 @@ export const TeamView = () => (
           email='keith'
           name='Keith Weber'
           title='Fundraising Lead'
+        />
+        <TeamListItem
+          img='isaac-chao'
+          email='isaac'
+          name='Isaac Chao'
+          title='General Counsel'
         />
         <TeamListItem
           img='ruochen'
@@ -376,24 +382,35 @@ export const TeamView = () => (
           img='arielle-robles'
           email='arielle'
           name='Arielle Robles'
-          title='ShelterConnect Program Co-Lead'
+          title='ShelterConnect Co-Lead'
         />
         <TeamListItem
           img='chris-yang'
           email='chrisyang'
           name='Chris Yang'
-          title='ShelterConnect Program Co-Lead'
+          title='ShelterConnect Co-Lead'
         />
         <TeamListItem
-          img='isaac-chao'
-          email='isaac'
-          name='Isaac Chao'
-          title='ShelterConnect Team'
+          img='jan-barnes'
+          email='jan'
+          name='Jan Barnes'
+          title='Policy & Public Affairs Lead'
+        />
+        <TeamListItem
+          img='lissa-dotty'
+          email='lissa'
+          name='Lissa Dotty'
+          title='User Research'
         />
         <TeamListItem
           email='guillermo'
           name='Guillermo Huerta'
-          title='ShelterConnect Team'
+          title='Technology and Hardware'
+        />
+        <TeamListItem
+          email='richardliu'
+          name='Richard Liu'
+          title='Internal Operations'
         />
       </ul>
 
