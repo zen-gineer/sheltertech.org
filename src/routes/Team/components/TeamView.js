@@ -22,6 +22,12 @@ export const TeamView = () => (
           title='Executive Director'
         />
         <TeamListItem
+          img='hicham'
+          email='hicham'
+          name='Hicham Sabir'
+          title='Co-Founder & President'
+        />
+        <TeamListItem
           img='husam-najib'
           email='husam'
           name='Husam Najib'
@@ -34,10 +40,22 @@ export const TeamView = () => (
           title='Co-CFO'
         />
         <TeamListItem
+          img='jason-cheng'
+          email='jason'
+          name='Jason Cheng'
+          title='CGIO'
+        />
+        <TeamListItem
           img='laura-barrera-vera'
           email='laura'
           name='Laura Barrera-Vera'
           title='AskDarcel/SFSG Lead'
+        />
+        <TeamListItem
+          img='derek'
+          email='derek'
+          name='Derek Fidler'
+          title='Co-Founder & Design Lead'
         />
         <TeamListItem
           img='arielle-robles'
@@ -74,12 +92,6 @@ export const TeamView = () => (
           email='julia'
           name='Julia Zhao'
           title='Co-Volunteer Lead'
-        />
-        <TeamListItem
-          img='vlad'
-          email='vlad'
-          name='Vlad Metrik'
-          title='Marketing Lead'
         />
         <TeamListItem
           img='keith-weber'
@@ -122,18 +134,6 @@ export const TeamView = () => (
           email='darcel'
           name='Darcel Jackson'
           title='Co-Founder'
-        />
-        <TeamListItem
-          img='hicham'
-          email='hicham'
-          name='Hicham Sabir'
-          title='Co-Founder & President'
-        />
-        <TeamListItem
-          img='derek'
-          email='derek'
-          name='Derek Fidler'
-          title='Co-Founder & Design Lead'
         />
       </ul>
 
@@ -487,6 +487,12 @@ export const TeamView = () => (
       <ul className='team-list'>
         <h4 className='team-list-header'>ShelterTech Volunteers</h4>
         <TeamListItem
+          img='vlad'
+          email='vlad'
+          name='Vlad Metrik'
+          title='Marketing'
+        />
+        <TeamListItem
           email='dana'
           name='Dana Kraushar'
           title='Anayltics Analyst'
@@ -510,7 +516,7 @@ export const TeamView = () => (
         <TeamListItem
           email='keren'
           name='Keren Wong'
-          title='Magial Memories Manager'
+          title='Magical Memories Manager'
         />
         <TeamListItem
           email='eleonora'
