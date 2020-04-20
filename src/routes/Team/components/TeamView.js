@@ -46,6 +46,12 @@ export const TeamView = () => (
           title='CGIO'
         />
         <TeamListItem
+          img='placeholder'
+          email='cindycinlin'
+          name='Cindy Lin'
+          title='Data Lead'
+        />
+        <TeamListItem
           img='laura-barrera-vera'
           email='laura'
           name='Laura Barrera-Vera'
