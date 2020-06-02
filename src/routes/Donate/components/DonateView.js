@@ -76,7 +76,12 @@ export const DonateView = () => (
 
       <div className='content--header'>
         <h2>Donate by Mail</h2>
-        <h3>Want to send a donation in the mail? <a href='mailto:info@sheltertech.org?subject=Donate by Mail'>Contact us</a> and we'll be happy to provide our mailing address.</h3>
+        <h3 className='donate--address'>
+          Our mailing address:<br />
+          ShelterTech<br />
+          268 Bush Street #4302<br />
+          San Francisco, CA 94104
+        </h3>
       </div>
 
       <p className='donate--legal'>ShelterTech (Tax ID #38-3984099) is an all-volunteer non-profit organization under section 501(c)3 of the Internal Revenue Code. Contributions to ShelterTech are tax deductible.</p>
