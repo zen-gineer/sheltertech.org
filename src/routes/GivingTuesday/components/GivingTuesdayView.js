@@ -35,7 +35,7 @@ export default class GivingTuesdayView extends Component {
                 <li>3,000+ people in San Francisco have access to free WiFi through ShelterConnect, annually</li>
                 <li>1,000+ people now have access to WiFi via ShelterConnect, nightly</li>
                 <li>1,300+ paid hours of work generated for community representatives</li>
-                <li>4,000+ volunteer hours were spent on the development of AskDarcel, the platform that powers SFServiceGuide </li>
+                <li>4,000+ volunteer hours were spent on the development of SF Service Guide</li>
               </ul>
               <p>Your support this Giving Tuesday help us continue creating an impact in the lives of those experiencing homelessness in San Francisco — please consider donating to our campaign. </p>
 

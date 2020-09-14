@@ -29,7 +29,7 @@ export const AnnualReportView = () => (
               </li>
               <li>
                 <span className='goal-number'>7</span>
-                <p>AskDarcel Releases</p>
+                <p>SF Service Guide Releases</p>
               </li>
               <li>
                 <span className='goal-number'>26</span>
@@ -91,14 +91,14 @@ export const AnnualReportView = () => (
 
       <div className='annual-report--askdarcel'>
         <div className='wrapper'>
-          <img src={ImgAskDarcelLogo} alt='AskDarcel' />
-          <p className='annual-report--text'>AskDarcel is a robust and continously updated online directory for case managers, city employees, social workers, and people in the homeless, low/no income, at risk, and supportive communities to find housing and human services in San Francisco.</p>
+          <img src={ImgAskDarcelLogo} alt='SF Service Guide' />
+          <p className='annual-report--text'>SF Service Guide is a robust and continously updated online directory for case managers, city employees, social workers, and people in the homeless, low/no income, at risk, and supportive communities to find housing and human services in San Francisco.</p>
           <p className='annual-report--text'>In 2018, we released an Alpha of the product but decided to hold off on a public launch while we validated the content on the site—trust is the biggest concern for people experiencing homelessness when it comes to referrals for services. The good news is we’ve now validated everything on the site and are ready for our Beta launch.</p>
-          <h3>In 2018, over <span className='white'>2,000</span> hours were spent on the development of AskDarcel.</h3>
+          <h3>In 2018, over <span className='white'>2,000</span> hours were spent on the development of SF Service Guide.</h3>
           <h3>The tech team shipped <span className='white'>7 releases</span> adding critical functionality.</h3>
           <h3>Directory listings grew from 365 to  over 800, a <span className='white'>219%</span> increase.</h3>
           <h3>Over <span className='white'>200 listings</span> were certified by our data partner, the Homeless Advocacy Project.</h3>
-          <div className='annual-report--askdarcel-stats'>
+          <div className='annual-report--SF Service Guide-stats'>
             <h2>Trust is key to our success—<br /><span className='white'>100% of our data is now certified.</span></h2>
             <p className='annual-report--text'>ShelterTech takes a unique and ground-breaking  approach to ensuring data quality by organizing public events called Datathons where volunteers work side-by-side with individuals who are currently or previously homeless  to verify and vet the services in our system.</p>
             <ul>
@@ -202,10 +202,10 @@ export const AnnualReportView = () => (
           <p className='annual-report--text'>This past year was a stunning success and gave us the momentum we needed to keep growing and surpassing our goals. Here’s what we want to accomplish in 2019.</p>
           <ul className='annual-report--2019-goals'>
             <li>
-              <p>Public launch of AskDarcel</p>
+              <p>Public launch of SF Service Guide</p>
             </li>
             <li>
-              <p>2000 AskDarcel users by year end</p>
+              <p>2000 SF Service Guide users by year end</p>
             </li>
             <li>
               <p>Host 45 Datathons</p>

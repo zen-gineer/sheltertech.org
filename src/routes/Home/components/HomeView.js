@@ -35,8 +35,8 @@ export const HomeView = () => (
           <p>Free Wifi access in shelters<br />and transitional housing</p>
         </li>
         <li className='home--cards--card'>
-          <a href='https://askdarcel.org/' target='_blank'><img src={ImageAskDarcelRound} /></a>
-          <h4><a href='https://askdarcel.org/' target='_blank'>AskDarcel</a></h4>
+          <a href='https://sfserviceguide.org/' target='_blank'><img src={ImageAskDarcelRound} /></a>
+          <h4><a href='https://sfserviceguide.org/' target='_blank'>SF Service Guide</a></h4>
           <p>Find housing and human services you're eligibile for</p>
         </li>
         <li className='home--cards--card'>
@@ -92,8 +92,8 @@ export const HomeView = () => (
             <img src={ImageAskDarcelLogo} className='home--programs--program--text--logo' />
             <h3>Find Human Services that are Right For You</h3>
             <p>In November 2017, ShelterTech began collaborating with the SF Bar Association's Homeless Advocacy Project to build the most robust housing and human services directory in San Francisco.</p>
-            <p>Through the AskDarcel website, case managers, city employees, and people experiencing homelessness can find thousands of homelessness, housing, health, job, education, and other human services nearby and learn how to access them.</p>
-            <p>Visit <a href='http://askdarcel.org'>AskDarcel.org</a> for more info.</p>
+            <p>Through the SF Service Guide website, case managers, city employees, and people experiencing homelessness can find thousands of homelessness, housing, health, job, education, and other human services nearby and learn how to access them.</p>
+            <p>Visit <a href='http://sfserviceguide.org'>sfserviceguide.org</a> for more info.</p>
             <a href='https://www.citylab.com/cityfixer/2015/10/how-apps-can-help-and-harm-the-homeless/412780/' className='home--programs--program--text--further-reading'>
               <h5>Read about it on</h5>
               <img src={ImageCitylab} className='home--programs--program--text--citylab-image' />
@@ -113,7 +113,7 @@ export const HomeView = () => (
           <div className='home--programs--program--text'>
             <img src={ImageCaseyLogo} className='home--programs--program--text--logo casey-logo' />
             <h3>Casey — Self Service Case Management</h3>
-            <p>Utilizing data from AskDarcel and hundreds of research hours, Casey provides step by step guides for many of the most common problems faced by people at risk of or experiencing homelessness.</p>
+            <p>Utilizing data from SF Service Guide and hundreds of research hours, Casey provides step by step guides for many of the most common problems faced by people at risk of or experiencing homelessness.</p>
             <p>Casey guides are delivered where they're needed most; paper guides will be available in shelters and resource centers early 2019.</p>
             <p>Digital guides will be coming in Q3 2019.</p>
           </div>
