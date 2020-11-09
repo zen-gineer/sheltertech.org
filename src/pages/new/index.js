@@ -20,10 +20,26 @@ import ThreeParagraphBlock from "../../components/grid-aware/ThreeParagraphBlock
 import image1 from "../../components/grid-aware/ThreeParagraphBlock/stories/image1.png";
 import image2 from "../../components/grid-aware/ThreeParagraphBlock/stories/image2.png";
 import image3 from "../../components/grid-aware/ThreeParagraphBlock/stories/image3.png";
+import VideoHeader from "../../components/grid-aware/VideoHeader/VideoHeader";
+import videoHeaderImage from "../../components/grid-aware/VideoHeader/stories/VideoHeader.png";
 import Layout from "../../components/layout";
 
 export default () => (
   <Layout>
+    <VideoHeader
+      text={{
+        title:
+          "Less than half of nearly 10,000 people experiencing homelessness in the Bay Area have reliable access to the internet.",
+        description:
+          "ShelterTech is a nonprofit organization dedicated to supporting people who are experiencing homelessness or housing insecurity by leveraging technology and connectivity.",
+      }}
+      image={videoHeaderImage}
+      ctaButtons={[
+        { text: "Donate", internalLink: "/new/donate" },
+        { text: "Volunteer", internalLink: "/new/volunteer" },
+      ]}
+      playButtonLink="https://www.youtube.com/watch?v=KCduRWJ1hQo"
+    />
     <HomePageLargeParagraph
       title="We believe connectivity is a human right."
       description="Access to the internet and technology makes it possible for people to find a job, human services, and contact family and friends."
