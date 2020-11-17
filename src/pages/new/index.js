@@ -21,6 +21,7 @@ import ThreeParagraphBlock from "../../components/grid-aware/ThreeParagraphBlock
 import image1 from "../../components/grid-aware/ThreeParagraphBlock/stories/image1.png";
 import image2 from "../../components/grid-aware/ThreeParagraphBlock/stories/image2.png";
 import image3 from "../../components/grid-aware/ThreeParagraphBlock/stories/image3.png";
+import TitleBlock from "../../components/grid-aware/TitleBlock";
 import VideoHeader from "../../components/grid-aware/VideoHeader/VideoHeader";
 import videoHeaderImage from "../../components/grid-aware/VideoHeader/stories/VideoHeader.png";
 import VideoSpotlightBlock from "../../components/grid-aware/VideoSpotlightBlock";
@@ -119,6 +120,7 @@ export default () => (
       }}
       playButtonLink="/foo"
     />
+    <TitleBlock title="Voices from the community" />
     <BlockQuoteBlock
       quotes={[
         {
