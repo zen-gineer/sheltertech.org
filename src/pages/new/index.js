@@ -136,6 +136,7 @@ export default () => {
           alt: "Video spotlight of Aaron speaking.",
         }}
         playButtonLink="/foo"
+        blackBackground
       />
       <Spacer heightDesktop="42px" heightMobile="0" />
       <TitleBlock title="Voices from the community" />
