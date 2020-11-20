@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 import ArticleSpotlightCard from "../../../components/grid-aware/ArticleSpotlightCard";
 import COVID19infoBoxBlock from "../../../components/grid-aware/COVID19InfoBoxBlock";
@@ -14,6 +15,9 @@ import articleSpotlightImage from "./laura-barerra-vera.png";
 
 export default () => (
   <Layout>
+    <Helmet>
+      <title>Volunteer | ShelterTech</title>
+    </Helmet>
     <ImageHeader
       title="Volunteering"
       subtitle="We rely on hundreds of volunteers to bridge the digital divide that our most vulnerable neighbors face."
