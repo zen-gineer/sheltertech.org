@@ -8,9 +8,13 @@ import classroom from "../../../components/grid-aware/ImageHeader/stories/classr
 import whiteboard from "../../../components/grid-aware/ImageHeader/stories/whiteboard-sticky-notes.png";
 import Spacer from "../../../components/grid-aware/Spacer";
 import StatsBlock from "../../../components/grid-aware/StatsBlock";
+import ThreeParagraphBlock from "../../../components/grid-aware/ThreeParagraphBlock";
 import TwoParagraphBlock from "../../../components/grid-aware/TwoParagraphBlock";
 import volunteers from "../../../components/grid-aware/TwoParagraphBlock/stories/volunteers.png";
 import Layout from "../../../components/layout";
+import teamActivityImage from "./image4.png";
+import pairProgrammingImage from "./image5.png";
+import teamSnackingImage from "./image6.png";
 import articleSpotlightImage from "./laura-barerra-vera.png";
 
 export default () => (
@@ -62,6 +66,38 @@ export default () => (
             "Worth of work provided by volunteers has been put towards our programs",
         },
       ]}
+    />
+    <ThreeParagraphBlock
+      title="Let’s work together"
+      paragraph1={{
+        title: "Technology",
+        description:
+          "Being based out of San Francisco, tech professionals comprise the bulk of our volunteer base and work together to improve the digital infrastructure powering the services designated for underserved residents.",
+      }}
+      paragraph2={{
+        title: "Partnerships & Communications",
+        description:
+          "We work with government agencies, nonprofits, and local businesses to strengthen the city’s social services ecosystem. via discourse and knowledge sharing between organizations that align with our mission.",
+      }}
+      paragraph3={{
+        title: "Research & Community Development",
+        description:
+          "To better understand the specific experiences people have endured with housing insecurity, our research team works alongside Community Representatives to better understand how best to serve these challenges.",
+      }}
+      leftTopImage={{
+        url: teamSnackingImage,
+        alt: "Team smiling into camera while snacking on food.",
+      }}
+      leftBottomImage={{
+        url: teamActivityImage,
+        alt: "Team bonding activity night.",
+      }}
+      rightImage={{
+        url: pairProgrammingImage,
+        alt: "Two volunteers pair programming.",
+      }}
+      ctaTitle="We know that digital equity can be achieved with people like you."
+      ctaButtons={[{ text: "Apply", internalLink: "/bar" }]}
     />
     <Spacer heightDesktop="120px" heightMobile="0" />
     <TwoParagraphBlock
