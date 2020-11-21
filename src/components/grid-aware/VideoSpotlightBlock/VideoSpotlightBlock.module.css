@@ -1,9 +1,14 @@
 .bleedWrapper {
   display: grid;
-  grid-template-columns: 1fr minmax(var(--grid-content-min-width), var(--grid-content-max-width)) 1fr;
+  grid-template-columns: var(--bleed-grid-template-columns);
   grid-template-rows: 465px;
   margin: 0 auto 42px;
-  max-width: var(--grid-bleed-max-width);
+  max-width: var(--bleed-max-width);
+}
+
+/* Override grid item default of auto so that item contents cannot stretch the grid itself */
+.bleedWrapper > * {
+  min-width: 0;
 }
 
 .blackBackground {
@@ -12,8 +17,6 @@
 
 .bleedMainContent {
   grid-column: 2;
-  /* Override grid item default of auto so that item contents cannot stretch the grid itself */
-  min-width: 0;
 }
 
 .gridParent {

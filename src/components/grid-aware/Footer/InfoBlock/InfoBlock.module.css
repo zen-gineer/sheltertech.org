@@ -5,7 +5,12 @@
   color: var(--color-gray-400);
   font: var(--font-body-small);
   margin: auto;
-  max-width: var(--grid-bleed-max-width);
+  max-width: var(--bleed-max-width);
+}
+
+/* Override grid item default of auto so that item contents cannot stretch the grid itself */
+.bleedWrapper > * {
+  min-width: 0;
 }
 
 .organizationInfo {

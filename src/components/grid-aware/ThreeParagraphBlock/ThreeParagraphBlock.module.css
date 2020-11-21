@@ -26,11 +26,16 @@
 
 .bleedWrapper {
   display: grid;
-  grid-template-columns: 1fr minmax(var(--grid-content-min-width), var(--grid-content-max-width)) 1fr;
+  grid-template-columns: var(--bleed-grid-template-columns);
   grid-template-rows: auto 0;
   margin: auto;
-  max-width: var(--grid-bleed-max-width);
+  max-width: var(--bleed-max-width);
   overflow-x: hidden;
+}
+
+/* Override grid item default of auto so that item contents cannot stretch the grid itself */
+.bleedWrapper > * {
+  min-width: 0;
 }
 
 .bleedBackground {
@@ -42,8 +47,6 @@
 .bleedMainContent {
   grid-column: 2;
   grid-row: 1;
-  /* Override grid item default of auto so that item contents cannot stretch the grid itself */
-  min-width: 0;
 }
 
 @media (--tablet-and-down) {
