@@ -71,7 +71,7 @@ export default () => {
         />
       </Modal>
       <VideoHeader
-        title="Less than half of nearly 10,000 people experiencing homelessness in the Bay Area have reliable access to the internet."
+        title="Less than half of nearly 28,000 people experiencing homelessness in the Bay Area have reliable access to the internet."
         description="ShelterTech is a technology-focused nonprofit organization making it easier for this community to connect with  resources that can help them address their challenges."
         image={videoHeaderImage}
         ctaButtons={[
@@ -156,14 +156,14 @@ export default () => {
       />
       <VideoSpotlightBlock
         eyebrowText="Our Impact"
-        description="Over 3,000 people have daily internet access in local shelters and resource centers."
+        description="Over 1,600 people have daily internet access in local shelters and resource centers."
         button={{ text: "View Annual Report", externalLink: annualReportPDF }}
         imageURL={videoSpotlightBlockImage}
         playButtonOnClick={() => setVideoSpotlightBlockModalIsOpen(true)}
         blackBackground
       />
       <Spacer heightDesktop="42px" heightMobile="0" />
-      <TitleBlock title="Voices from the community" />
+      <TitleBlock title="What Our Partners Say" />
       <BlockQuoteBlock
         quotes={[
           {
