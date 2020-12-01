@@ -6,14 +6,6 @@ import BlockQuoteBlock from "../components/grid-aware/BlockQuoteBlock/BlockQuote
 import HomePageLargeParagraph from "../components/grid-aware/HomePageLargeParagraph";
 import Modal from "../components/grid-aware/Modal";
 import PartnersAndSponsorsBlock from "../components/grid-aware/PartnersAndSponsorsBlock";
-import benetechLogo from "../components/grid-aware/PartnersAndSponsorsBlock/stories/benetech-logo.png";
-import ciscoLogo from "../components/grid-aware/PartnersAndSponsorsBlock/stories/cisco-logo.png";
-import justiceAndDiversityCenterLogo from "../components/grid-aware/PartnersAndSponsorsBlock/stories/justice-and-diversity-center-logo.png";
-import larkinStreetLogo from "../components/grid-aware/PartnersAndSponsorsBlock/stories/larkin-street-logo.png";
-import mohcdLogo from "../components/grid-aware/PartnersAndSponsorsBlock/stories/mohcd-logo.png";
-import pagerdutyLogo from "../components/grid-aware/PartnersAndSponsorsBlock/stories/pagerduty-logo.png";
-import sfFamiliesLogo from "../components/grid-aware/PartnersAndSponsorsBlock/stories/sf-families-logo.png";
-import uberLogo from "../components/grid-aware/PartnersAndSponsorsBlock/stories/uber-logo.png";
 import ProgramsBlock from "../components/grid-aware/ProgramsBlock";
 import communityDevelopmentImg from "../components/grid-aware/ProgramsBlock/stories/community-development.jpg";
 import sfServiceGuideImg from "../components/grid-aware/ProgramsBlock/stories/sf-service-guide.jpg";
@@ -29,6 +21,7 @@ import VideoSpotlightBlock from "../components/grid-aware/VideoSpotlightBlock";
 import videoSpotlightBlockImage from "../components/grid-aware/VideoSpotlightBlock/stories/VideoSpotlightBlock.png";
 import Layout from "../components/layout";
 import PartnershipSignupForm from "../components/thirdparty/mailchimp/PartnershipSignupForm";
+import partnersAndSponsorsLogos from "../data/partnersAndSponsorsLogos";
 import annualReportPDF from "./ShelterTech-Annual-Report-2019-Q1.pdf";
 import articleSpotlightImage from "./mission-hotel.jpeg";
 
@@ -189,43 +182,7 @@ export default () => {
       <Spacer heightDesktop="20px" heightMobile="0" />
       <PartnersAndSponsorsBlock
         title="Partners and sponsors"
-        partnersAndSponsors={[
-          {
-            url: mohcdLogo,
-            alt:
-              "Logo of Mayor's Office of Housing and Community Development organization.",
-          },
-          {
-            url: justiceAndDiversityCenterLogo,
-            alt:
-              "Logo of Justice and Diversity Center of The Bar Association of San Francisco organization.",
-          },
-          {
-            url: benetechLogo,
-            alt: "Logo of Benetech nonprofit organization.",
-          },
-          {
-            url: larkinStreetLogo,
-            alt: "Logo of Larkin Street Youth Services nonprofit organization.",
-          },
-          {
-            url: sfFamiliesLogo,
-            alt:
-              "Logo of SF Families online public service directory organization.",
-          },
-          {
-            url: ciscoLogo,
-            alt: "Logo of Cisco Systems networking hardware company.",
-          },
-          {
-            url: pagerdutyLogo,
-            alt: "Logo of PagerDuty computer software company.",
-          },
-          {
-            url: uberLogo,
-            alt: "Logo of Uber Technologies Inc. company.",
-          },
-        ]}
+        partnersAndSponsors={partnersAndSponsorsLogos}
       />
       <ArticleSpotlightCard
         eyebrowText="ShelterConnect Spotlight"
