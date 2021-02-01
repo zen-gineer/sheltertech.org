@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    // Keep options grouped in the same order as
+    // https://www.typescriptlang.org/tsconfig
+
+    // Project Options
+    "allowJs": true, // Allow a mix of JS and TS until we fully migrate to TS.
+    "jsx": "react",
+    "noEmit": true, // No need to emit .d.ts files, since we're not publishing a package.
+
+    // Strict Checks
+    "strict": true,
+
+    // Advanced
+    "skipLibCheck": true // Don't type check .d.ts files, which mostly come from third party libraries.
+  },
+  "include": ["**/*", ".storybook/*", ".eslintrc.js"],
+  "exclude": ["node_modules"]
+}
