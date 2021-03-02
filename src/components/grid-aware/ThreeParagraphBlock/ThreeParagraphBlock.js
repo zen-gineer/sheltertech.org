@@ -61,7 +61,20 @@ const ParagraphBlock = ({ title, description, button }) => {
 ParagraphBlock.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  button: PropTypes.shape(Button.propTypes),
+  button: PropTypes.oneOfType([
+    PropTypes.exact({
+      text: PropTypes.string,
+      externalLink: PropTypes.string,
+    }),
+    PropTypes.exact({
+      text: PropTypes.string,
+      internalLink: PropTypes.string,
+    }),
+    PropTypes.exact({
+      text: PropTypes.string,
+      onClick: PropTypes.func,
+    }),
+  ]),
 };
 
 ParagraphBlock.defaultProps = {
@@ -85,7 +98,13 @@ const CTABlock = ({ title, buttons }) => (
 
 CTABlock.propTypes = {
   title: PropTypes.string.isRequired,
-  buttons: PropTypes.arrayOf(Button.propTypes).isRequired,
+  buttons: PropTypes.arrayOf({
+    text: PropTypes.string.isRequired,
+    noHover: PropTypes.bool,
+    externalLink: PropTypes.string.isRequired,
+    internalLink: PropTypes.string.isRequired,
+    onClick: PropTypes.func.isRequired,
+  }).isRequired,
 };
 
 /* Main component */
@@ -207,7 +226,22 @@ ThreeParagraphBlock.propTypes = {
     alt: PropTypes.string,
   }),
   ctaTitle: PropTypes.string,
-  ctaButtons: PropTypes.arrayOf(Button.propTypes),
+  ctaButtons: PropTypes.arrayOf(
+    PropTypes.oneOfType([
+      PropTypes.exact({
+        text: PropTypes.string,
+        externalLink: PropTypes.string,
+      }),
+      PropTypes.exact({
+        text: PropTypes.string,
+        internalLink: PropTypes.string,
+      }),
+      PropTypes.exact({
+        text: PropTypes.string,
+        onClick: PropTypes.func,
+      }),
+    ])
+  ),
 };
 
 ThreeParagraphBlock.defaultProps = {

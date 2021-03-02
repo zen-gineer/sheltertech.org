@@ -79,7 +79,25 @@ TwoParagraphBlock.propTypes = {
   paragraph1: PropTypes.string.isRequired,
   paragraph2: PropTypes.node.isRequired,
   image: ImagePropType.isRequired,
-  ctaButtons: PropTypes.arrayOf(PropTypes.shape(Button.propTypes)).isRequired,
+  ctaButtons: PropTypes.arrayOf(
+    PropTypes.oneOfType([
+      PropTypes.exact({
+        text: PropTypes.string,
+        noHover: PropTypes.bool,
+        externalLink: PropTypes.string,
+      }),
+      PropTypes.exact({
+        text: PropTypes.string,
+        noHover: PropTypes.bool,
+        internalLink: PropTypes.string,
+      }),
+      PropTypes.exact({
+        text: PropTypes.string,
+        noHover: PropTypes.bool,
+        onClick: PropTypes.func,
+      }),
+    ])
+  ).isRequired,
 };
 
 export default TwoParagraphBlock;
