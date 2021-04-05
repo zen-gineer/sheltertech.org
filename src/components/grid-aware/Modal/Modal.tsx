@@ -1,18 +1,26 @@
-import PropTypes from "prop-types";
-import React from "react";
+import * as React from "react";
 import ReactModal from "react-modal";
 
 import s from "./Modal.module.css";
 import closeIcon from "./close-icon.svg";
 
+type ModalProps = {
+  children: React.ReactNode;
+  isOpen: boolean;
+  setIsOpen: (x: boolean) => void;
+  ariaHideApp?: boolean; // we only ever set this to false for storybook
+  contentLabel: string;
+  noBezel?: boolean; // If true, then eliminate the padding and close button
+};
+
 const Modal = ({
   children,
   isOpen,
   setIsOpen,
-  ariaHideApp,
+  ariaHideApp = true,
   contentLabel,
   noBezel,
-}) => {
+}: ModalProps) => {
   const modalClassName = `${s.content} ${noBezel ? s.noBezel : s.withBezel}`;
   const buttonClassName = `${s.closeButton} ${
     noBezel ? s.noBezel : s.withBezel
@@ -36,20 +44,6 @@ const Modal = ({
       {children}
     </ReactModal>
   );
-};
-
-Modal.propTypes = {
-  children: PropTypes.node.isRequired,
-  isOpen: PropTypes.bool.isRequired,
-  setIsOpen: PropTypes.func.isRequired,
-  ariaHideApp: PropTypes.bool,
-  contentLabel: PropTypes.string.isRequired,
-  noBezel: PropTypes.bool, // If true, then eliminate the padding and close button
-};
-
-Modal.defaultProps = {
-  ariaHideApp: true,
-  noBezel: false,
 };
 
 export default Modal;
