@@ -5,11 +5,10 @@ import Button, { ButtonProps } from "../../inline/Button";
 import s from "./TwoParagraphBlock.module.css";
 
 /* Main component */
-
 type TwoParagraphBlockProps = {
   title: string;
-  paragraph1: string;
-  paragraph2: string;
+  paragraph1: React.ReactNode;
+  paragraph2: React.ReactNode;
   image: { url: string; alt: string };
   ctaButtons: ButtonProps[];
 };
