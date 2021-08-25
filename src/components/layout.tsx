@@ -21,7 +21,7 @@ type NavItem = {
 
 const navigationItems: NavItem[] = [
   { text: "About Us", internalLink: "/about" },
-  { text: "Programs", internalLink: "/" },
+  { text: "Our Programs", internalLink: "/programs" },
   { text: "Volunteer", internalLink: "/volunteer" },
   { text: "Donate", internalLink: "/donate", isButton: true },
 ];
@@ -87,7 +87,7 @@ const Layout = ({ children }: LayoutProps) => {
           formDescription="Subscribe to get updates"
           footerNavigation={[
             { text: "About Us", internalLink: "/about" },
-            { text: "Programs", internalLink: "/" },
+            { text: "Our Programs", internalLink: "/programs" },
             { text: "Volunteer", internalLink: "/volunteer" },
             { text: "Donate", internalLink: "/donate" },
           ]}
