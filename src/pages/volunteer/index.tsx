@@ -15,10 +15,9 @@ import TwoParagraphBlock from "../../components/grid-aware/TwoParagraphBlock";
 import volunteers from "../../components/grid-aware/TwoParagraphBlock/stories/volunteers.png";
 import Layout from "../../components/layout";
 import VolunteerSignupForm from "../../components/thirdparty/mailchimp/VolunteerSignupForm";
+import teamInClassroom from "../images/classroom.png";
 import articleSpotlightImage from "../images/laura-barerra-vera-cropped.png";
 import teamActivityImage from "./image4.png";
-import pairProgrammingImage from "./image5.png";
-import teamSnackingImage from "./image6.png";
 
 export default () => {
   const [volunteerFormIsOpen, setVolunteerFormIsOpen] = useState(false);
@@ -96,16 +95,12 @@ export default () => {
             "No two experiences of people facing housing insecurity is the same. We have a dedicated team working alongside individuals who have experienced homelessness learning how best to serve the diverse challenges faced by those facing housing insecurity.",
         }}
         leftTopImage={{
-          url: teamSnackingImage,
-          alt: "Team smiling into camera while snacking on food.",
+          url: teamInClassroom,
+          alt: "Team members in a classroom setting.",
         }}
         leftBottomImage={{
           url: teamActivityImage,
           alt: "Team bonding activity night.",
-        }}
-        rightImage={{
-          url: pairProgrammingImage,
-          alt: "Two volunteers pair programming.",
         }}
         ctaTitle="We know that digital equity can be achieved with people like you."
         ctaButtons={[
