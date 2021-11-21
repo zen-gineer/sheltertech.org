@@ -1,4 +1,5 @@
 import * as React from "react";
+import { ThemeColorOption } from "../../../types";
 
 import * as s from "./StatsBlock.module.css";
 
@@ -17,11 +18,18 @@ const StatCard = ({ number, statement }: StatCardProps) => (
 type StatsBlockProps = {
   title: string;
   statCards: StatCardProps[];
+  theme: ThemeColorOption;
 };
 
-const StatsBlock = ({ title, statCards }: StatsBlockProps) => (
-  <div className={s.bleedWrapper}>
-    <div className={s.bleedBackground} />
+const StatsBlock = ({ title, statCards, theme }: StatsBlockProps) => (
+  <div
+    className={`${s.bleedWrapper} 
+      ${s[theme]}`}
+  >
+    <div
+      className={`${s.bleedBackground} 
+        ${s[theme]}`}
+    />
     <div className={s.bleedMainContent}>
       <section className={s.gridParent}>
         <h1 className={s.title}>{title}</h1>

@@ -15,10 +15,9 @@ import TwoParagraphBlock from "../../components/grid-aware/TwoParagraphBlock";
 import volunteers from "../../components/grid-aware/TwoParagraphBlock/stories/volunteers.png";
 import Layout from "../../components/layout";
 import VolunteerSignupForm from "../../components/thirdparty/mailchimp/VolunteerSignupForm";
+import teamInClassroom from "../images/classroom.png";
+import articleSpotlightImage from "../images/laura-barerra-vera-cropped.png";
 import teamActivityImage from "./image4.png";
-import pairProgrammingImage from "./image5.png";
-import teamSnackingImage from "./image6.png";
-import articleSpotlightImage from "./laura-barerra-vera.png";
 
 export default () => {
   const [volunteerFormIsOpen, setVolunteerFormIsOpen] = useState(false);
@@ -35,8 +34,8 @@ export default () => {
         <VolunteerSignupForm />
       </Modal>
       <ImageHeader
-        title="Volunteering"
-        subtitle="We rely on hundreds of volunteers to bridge the digital divide that our most at-risk neighbors face."
+        title="Volunteer & Get Involved"
+        subtitle="ShelterTech is an all-volunteer organization that relies on volunteers to bridge the digital divide faced by people experiencing homelessness and are housing insecure in San Francisco. Internet access and technology makes it possible for people to find jobs, human services, and contact family and friends."
         description="If you share our belief that digital equity is a human right, we encourage you to apply and work with us."
         image1={{
           url: classroom,
@@ -55,9 +54,8 @@ export default () => {
       />
       <COVID19infoBoxBlock
         title="Volunteering during COVID-19"
-        description="Our programs have shifted to remote alternatives. While our means of coming together are different, our research and Datathon events will be conducted online. Simply put, our goal is still the same: to connect this community with resources that can help them address their challenges, become permanently housed, and on track to live happy and productive lives."
+        description="While our means of coming together are different, our research and Datathon events are conducted online. Simply put, our goal is still the same: to connect this community with resources that can help them address their challenges, become permenantly housed, and on track to live happy and productive lives."
       />
-      <Spacer heightDesktop="100px" heightMobile="80px" />
       <StatsBlock
         title="See what our volunteers have accomplished together."
         statCards={[
@@ -77,13 +75,14 @@ export default () => {
               "Worth of work provided by volunteers has been put towards our programs",
           },
         ]}
+        theme="white"
       />
       <ThreeParagraphBlock
-        title="Let’s work together"
+        title="How we work"
         paragraph1={{
           title: "Technology",
           description:
-            "Being based out of San Francisco, tech professionals comprise the bulk of our volunteer base and work together to improve the digital infrastructure powering the services designated for under-resourced residents.",
+            "Being based out of San Francisco, tech professionals comprise the bulk of our volunteer base and work together to improve the digital infrastructure powering the services designated for underserved residents.",
         }}
         paragraph2={{
           title: "Partnerships & Communications",
@@ -93,19 +92,15 @@ export default () => {
         paragraph3={{
           title: "Research & Community Development",
           description:
-            "To better understand the specific experiences people have endured with housing insecurity, our research team works alongside Community Representatives to better understand how best to serve these challenges.",
+            "No two experiences of people facing housing insecurity is the same. We have a dedicated team working alongside individuals who have experienced homelessness learning how best to serve the diverse challenges faced by those facing housing insecurity.",
         }}
         leftTopImage={{
-          url: teamSnackingImage,
-          alt: "Team smiling into camera while snacking on food.",
+          url: teamInClassroom,
+          alt: "Team members in a classroom setting.",
         }}
         leftBottomImage={{
           url: teamActivityImage,
           alt: "Team bonding activity night.",
-        }}
-        rightImage={{
-          url: pairProgrammingImage,
-          alt: "Two volunteers pair programming.",
         }}
         ctaTitle="We know that digital equity can be achieved with people like you."
         ctaButtons={[
@@ -114,23 +109,26 @@ export default () => {
       />
       <Spacer heightDesktop="120px" heightMobile="0" />
       <TwoParagraphBlock
-        title="What it’s like to volunteer at ShelterTech"
-        paragraph1="No matter what role you play, the essential attitude you need is a deep belief in digital equity for all people."
+        title="Volunteering at ShelterTech"
+        paragraph1=""
         paragraph2={
           <>
             <p>We ask that you consider these three things before joining:</p>
             <p>
-              &ndash; You are willing to volunteer at least three hours each
-              week.
+              &bull; You are willing to volunteer at least three hours each week
             </p>
             <p>
-              &ndash; You will be kind, considerate, and ethical towards other
-              volunteers and the communities we serve.
+              &bull; You will be kind, considerate, and ethical towards other
+              volunteers and the communities we serve
             </p>
             <p>
-              &ndash; You understand that ShelterTech is an all-volunteer team,
+              &bull; You understand that ShelterTech is an all-volunteer team,
               and that you will try your best to always represent ShelterTech in
               a professional and thoughftul manner.
+            </p>
+            <p>
+              &bull; No matter what role you play, the essential attitude you
+              need is a deep belief in digital equity for all people
             </p>
           </>
         }
@@ -146,7 +144,7 @@ export default () => {
         ]}
       />
       <OneParagraphBlock
-        title="This is where we could use your expertise"
+        title="We need your expertise"
         descriptions={
           <>
             <h2>Product</h2>

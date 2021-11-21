@@ -19,7 +19,6 @@ import sfServiceGuideImg from "../components/grid-aware/ProgramsBlock/stories/sf
 import shelterConnectImg from "../components/grid-aware/ProgramsBlock/stories/shelter-connect.jpg";
 import Spacer from "../components/grid-aware/Spacer";
 import ThreeParagraphBlock from "../components/grid-aware/ThreeParagraphBlock";
-import teamDesignWorkshopImage from "../components/grid-aware/ThreeParagraphBlock/stories/image2.png";
 import datathonClassroomImage from "../components/grid-aware/ThreeParagraphBlock/stories/image3.png";
 import TitleBlock from "../components/grid-aware/TitleBlock";
 import VideoHeader from "../components/grid-aware/VideoHeader/VideoHeader";
@@ -31,7 +30,7 @@ import PartnershipSignupForm from "../components/thirdparty/mailchimp/Partnershi
 import partnersAndSponsorsLogos from "../data/partnersAndSponsorsLogos";
 import linkResolver from "../utils/linkResolver";
 import annualReportPDF from "./ShelterTech-Annual-Report-2019-Q1.pdf";
-import articleSpotlightImage from "./mission-hotel.jpeg";
+import articleSpotlightImage from "./images/mission-hotel.jpeg";
 
 export const query = graphql`
   query HomePage {
@@ -123,10 +122,6 @@ const IndexPage = ({ data }: PageProps<GatsbyTypes.HomePageQuery>) => {
           button: { text: "Donate", internalLink: "/donate" },
         }}
         leftBottomImage={{
-          url: teamDesignWorkshopImage,
-          alt: "Team posing for a photo after a design workshop.",
-        }}
-        rightImage={{
           url: datathonClassroomImage,
           alt: "Multiple volunteers working at a datathon.",
         }}
