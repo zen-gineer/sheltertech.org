@@ -1,6 +1,6 @@
 import { graphql, PageProps } from "gatsby";
 import React from "react";
-import BlogPostTemplate from "./BlogPostTemplate";
+import BlogPostTemplate from "../../templates/BlogPostTemplate";
 
 /**
   This is the setup for our dynamically generated blog post pages.
@@ -25,11 +25,29 @@ export const query = graphql`
         title {
           text
         }
+        topic {
+          document {
+            ... on PrismicBlogPostTopic {
+              data {
+                name {
+                  text
+                }
+              }
+            }
+          }
+        }
         publish_date
         body {
           ... on PrismicBlogPostDataBodyStatsBlock {
-            id
             slice_type
+            primary {
+              statistic {
+                text
+              }
+              statistic_text {
+                text
+              }
+            }
           }
           ... on PrismicBlogPostDataBodyImageWithCaption {
             primary {
@@ -38,7 +56,7 @@ export const query = graphql`
                 alt
               }
               caption {
-                raw
+                text
               }
             }
             slice_type
@@ -59,18 +77,15 @@ export const query = graphql`
             slice_type
           }
           ... on PrismicBlogPostDataBodySeparator {
-            id
-            primary {
-              separator_image {
-                url
-              }
-            }
             slice_type
           }
           ... on PrismicBlogPostDataBodyQuoteBlock {
             id
             primary {
               quote {
+                text
+              }
+              attributee {
                 text
               }
             }
@@ -80,7 +95,7 @@ export const query = graphql`
             id
             primary {
               body_text {
-                html
+                raw
               }
             }
             slice_type
@@ -92,6 +107,9 @@ export const query = graphql`
                 url
               }
               file_download_header {
+                text
+              }
+              button_text {
                 text
               }
             }
@@ -108,11 +126,17 @@ const PrismicBlogPostPage = ({
 }: PageProps<GatsbyTypes.PrismicBlogPostQuery>) => {
   if (!data?.prismicBlogPost?.data) return <h1>There was a problem</h1>;
   const blogData = data.prismicBlogPost.data;
+  const slices = blogData?.body ?? [];
 
   return (
     <BlogPostTemplate
-      title={blogData?.title?.text || ""}
-      author={blogData?.author?.text || ""}
+      title={blogData?.title?.text}
+      author={blogData?.author?.text}
+      topic={blogData?.topic?.document?.data?.name?.text}
+      date={blogData?.publish_date}
+      headerImgAlt={blogData?.header_image?.alt}
+      headerImgUrl={blogData?.header_image?.url}
+      slices={slices}
     />
   );
 };
