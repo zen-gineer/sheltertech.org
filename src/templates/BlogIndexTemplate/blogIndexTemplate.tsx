@@ -1,7 +1,10 @@
-import { graphql, Link, PageProps } from "gatsby";
+import { graphql, PageProps } from "gatsby";
 import React from "react";
 import { Helmet } from "react-helmet";
 
+import BlogPostSummaryCard from "../../components/blog/BlogPostSummaryCard";
+import Pagination from "../../components/blog/Pagination";
+import TopicFilterMenu from "../../components/blog/TopicFilterMenu";
 import ArticleSpotlightCard from "../../components/grid-aware/ArticleSpotlightCard";
 import Spacer from "../../components/grid-aware/Spacer";
 import TextHeader from "../../components/grid-aware/TextHeader";
@@ -21,6 +24,7 @@ export const query = graphql`
       filter: $filter
     ) {
       nodes {
+        url
         data {
           publish_date
           title {
@@ -70,97 +74,6 @@ export const query = graphql`
   }
 `;
 
-type TopicFilterMenuProps = {
-  activeTopic: string | null;
-  topics: {
-    name?: string;
-    uid: string;
-  }[];
-};
-const TopicFilterMenu = ({ activeTopic, topics }: TopicFilterMenuProps) => {
-  const items = [{ name: "All Topics", uid: null }, ...topics];
-  return (
-    <ul>
-      {items.map((topic) => (
-        <li>
-          {topic.uid === activeTopic ? (
-            topic.name
-          ) : (
-            <Link to={topic.uid ? `/blog/${topic.uid}` : "/blog"}>
-              {topic.name}
-            </Link>
-          )}
-        </li>
-      ))}
-    </ul>
-  );
-};
-
-type BlogPostSummaryCardProps = {
-  title?: string;
-  topic?: string;
-  body?: string;
-  date?: string;
-  author?: string;
-  image?: {
-    url?: string;
-    alt?: string;
-  };
-};
-const BlogPostSummaryCard = ({
-  title,
-  topic,
-  body,
-  date,
-  author,
-  image,
-}: BlogPostSummaryCardProps) => {
-  return (
-    <div>
-      <div>{topic}</div>
-      <h2>{title}</h2>
-      <div>{body}</div>
-      <div>
-        {date} - {author}
-      </div>
-      {/*
-        There's a bug in eslint-plugin-jsx-a11y that causes the ?. syntax to be
-        treated like a string, so we silence this false positive. See
-        https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/issues/755
-      */}
-      {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
-      <div>{image?.url && <img src={image.url} alt={image?.alt} />}</div>
-    </div>
-  );
-};
-
-type PageNavigationProps = {
-  baseURL: string;
-  currentPage: number;
-  totalPages: number;
-};
-const PageNavigation = ({
-  baseURL,
-  currentPage,
-  totalPages,
-}: PageNavigationProps) => {
-  const urlForPage = (pageNumber: number) =>
-    pageNumber === 0 ? baseURL : `${baseURL}/${pageNumber + 1}`;
-  return (
-    <ul>
-      {Array.from({ length: totalPages }).map((_, pageNumber) => (
-        <li>
-          {pageNumber === currentPage ? (
-            pageNumber + 1
-          ) : (
-            <Link to={urlForPage(pageNumber)}>{pageNumber + 1}</Link>
-          )}
-        </li>
-      ))}
-    </ul>
-  );
-};
-
 type BlogIndexPageContext = {
   limit: number; // Number of posts to display on the page
   skip: number; // Number of posts to skip before the first post on this page
@@ -180,6 +93,7 @@ export default ({
     uid: topic.uid,
   }));
   const posts = data.allPrismicBlogPost.nodes.map((post) => ({
+    url: post.url,
     title: post.data?.title?.text,
     topic: post.data?.topic?.document?.data?.name?.text,
     body: post.data?.body?.[0]?.primary?.body_text?.text,
@@ -195,10 +109,15 @@ export default ({
       <TextHeader
         title="ShelterTech Stories"
         description="The official blog of ShelterTech, an all-volunteer non-profit creating technology for people experiencing homelessness. Made with love in SF."
+        large
       />
+      <Spacer heightDesktop="50px" heightMobile="20px" />
       <TopicFilterMenu topics={topics} activeTopic={pageContext.topic} />
+      <Spacer heightDesktop="30px" heightMobile="0" />
       {posts.map((post) => (
         <BlogPostSummaryCard
+          key={post.url}
+          url={post.url}
           title={post.title}
           topic={post.topic}
           body={post.body}
@@ -207,11 +126,13 @@ export default ({
           image={post.image}
         />
       ))}
-      <PageNavigation
+      <Spacer heightDesktop="80px" heightMobile="50px" />
+      <Pagination
         baseURL={pageContext.basePageURL}
         currentPage={pageContext.currentPage}
         totalPages={pageContext.totalPages}
       />
+      <Spacer heightDesktop="175px" heightMobile="50px" />
       <ArticleSpotlightCard
         eyebrowText="Volunteer Spotlight"
         title="Laura Barrera-Vera"
