@@ -1,27 +1,39 @@
 import * as React from "react";
-import { ThemeColorOption } from "../../../types";
+import { ThemeColorOption, TitleColorOption } from "../../../types";
 
 import * as s from "./StatsBlock.module.css";
 
 type StatCardProps = {
   number: string;
+  secondaryNumber?: number;
   statement: string;
 };
 
-const StatCard = ({ number, statement }: StatCardProps) => (
+const StatCard = ({ number, secondaryNumber, statement }: StatCardProps) => (
   <div className={s.statCard}>
     <div className={s.number}>{number}</div>
+    {secondaryNumber && (
+      <div className={s.secondaryNumber}>{secondaryNumber}</div>
+    )}
     <div className={s.statement}>{statement}</div>
   </div>
 );
 
 type StatsBlockProps = {
   title: string;
+  subtitle?: string;
   statCards: StatCardProps[];
   theme: ThemeColorOption;
+  titleColor?: TitleColorOption;
 };
 
-const StatsBlock = ({ title, statCards, theme }: StatsBlockProps) => (
+const StatsBlock = ({
+  title,
+  subtitle,
+  statCards,
+  theme,
+  titleColor = "black",
+}: StatsBlockProps) => (
   <div
     className={`${s.bleedWrapper} 
       ${s[theme]}`}
@@ -32,10 +44,16 @@ const StatsBlock = ({ title, statCards, theme }: StatsBlockProps) => (
     />
     <div className={s.bleedMainContent}>
       <section className={s.gridParent}>
-        <h1 className={s.title}>{title}</h1>
+        <h1 className={`${s.title} ${s[titleColor]}`}>{title}</h1>
+        {subtitle && <h2 className={s.subtitle}>{subtitle}</h2>}
         <div className={s.gridAreaBottom}>
-          {statCards.map(({ number, statement }) => (
-            <StatCard key={statement} number={number} statement={statement} />
+          {statCards.map(({ number, secondaryNumber, statement }) => (
+            <StatCard
+              key={statement}
+              number={number}
+              secondaryNumber={secondaryNumber}
+              statement={statement}
+            />
           ))}
         </div>
       </section>
