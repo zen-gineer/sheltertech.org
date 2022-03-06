@@ -1,4 +1,5 @@
 import * as React from "react";
+import * as s from "./QuoteBlock.module.css";
 
 type QuoteBlockProps = {
   quote: string;
@@ -6,8 +7,12 @@ type QuoteBlockProps = {
 };
 
 const QuoteBlock = ({ quote, attributee }: QuoteBlockProps) => {
-  const quoteContent = attributee ? `${quote} - ${attributee}` : quote;
-  return <p>{quoteContent}</p>;
+  return (
+    <div className={s.quote}>
+      <q className={s.quoteText}>{quote}</q>
+      {attributee && <span className={s.quoteText}>{` - ${attributee}`}</span>}
+    </div>
+  );
 };
 
 export default QuoteBlock;
