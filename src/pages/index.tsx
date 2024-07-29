@@ -109,7 +109,7 @@ export default () => {
         programs={[
           {
             image: shelterConnectImg,
-            imageAlt: "Image of ShelterTech booth with 4 volunteers smiling.",
+            imageAlt: "ShelterTech booth with 4 volunteers smiling.",
             title: "ShelterConnect",
             description:
               "Through partnerships with the City of San Francisco and Cisco, residents can use free wifi and hardware at shelters and transitional housing facilities.",
@@ -117,14 +117,14 @@ export default () => {
           {
             image: sfServiceGuideImg,
             imageAlt:
-              "Image of the back of two people sitting where the woman on the left is pointing to the monitor of a Macbook as the man observes.",
+              "Two people looking at the monitor of a Macbook, where person #1 is pointing out something on the screen to person #2.",
             title: "SF Service Guide",
             description:
               "Anyone with access to a smartphone, tablet, or computer can utilize this online directory of human services provided in San Francisco.",
           },
           {
             image: communityDevelopmentImg,
-            imageAlt: "Image of ShelterTech community member smiling.",
+            imageAlt: "ShelterTech community member smiling.",
             title: "Community Development",
             description:
               "We depend on Community Representatives to inform our work from their lived experiences and rely on volunteers to continuously updated the resources we develop.",
